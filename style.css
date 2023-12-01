@@ -609,15 +609,23 @@ input {
   
 /* FOOTER */
 footer {
-  position: fixed;
-  left: 0;
+ 
+  
+  padding: 20px;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  position: relative;
   bottom: 0;
   width: 100%;
-  margin: 1em;
-  padding: 1em;
+  height: 50px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  
+  
+  
 }
 
 
