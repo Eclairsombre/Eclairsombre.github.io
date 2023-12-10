@@ -157,7 +157,7 @@
             {
                 "name": "RandomAnimePickerExtension",
                 "img": "./animeExtension.png",
-                "description": "A Chrome Extension that allow you to pick a random anime from the jikan moe API. ",
+                "description": "A Chrome/Firefox Extension that allow you to pick a random anime from the jikan moe API. ",
                 "language_used": "React, SCSS",
                 "collaborator": [],
                 "link":{
