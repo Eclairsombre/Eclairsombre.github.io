@@ -1,0 +1,53 @@
+[
+        {
+            "src": "https://img.icons8.com/color/96/000000/html-5--v1.png",
+            "alt": "html"
+        },
+        {
+            "src": "https://img.icons8.com/color/96/000000/css3.png",
+            "alt": "css"
+        },
+        {
+            "src": "https://img.icons8.com/color/96/000000/javascript--v1.png",
+            "alt": "javascript"
+        },
+        {
+            "src": "https://img.icons8.com/color/96/000000/react-native.png",
+            "alt": "react"
+        },
+        {
+            "src": "https://img.icons8.com/color/96/000000/git.png",
+            "alt": "git"
+        },
+        {
+            "src": "https://img.icons8.com/color/96/000000/github--v1.png",
+            "alt": "github"
+        },
+        {
+            "src": "https://img.icons8.com/color/96/000000/c-plus-plus-logo.png",
+            "alt": "C++"
+        },
+        {
+            "src": "https://img.icons8.com/color/96/000000/visual-studio-code-2019.png",
+            "alt": "VsCode"
+        },
+        {
+            "src": "https://img.icons8.com/color/96/000000/python--v1.png",
+            "alt": "Python"
+        },
+        {
+            "alt":"PHP",
+            "src":"https://img.icons8.com/officel/96/000000/php-logo.png"
+        },
+        
+        {
+            "alt":"JSON",
+            "src":"https://img.icons8.com/color/96/000000/json--v1.png"
+        },
+        {
+            "alt":"After Effects",
+            "src":"https://img.icons8.com/color/96/000000/adobe-after-effects--v1.png"
+        }
+        
+]
+

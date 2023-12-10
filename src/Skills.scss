@@ -1,0 +1,47 @@
+.skills{
+    margin-top: 20px;
+ 
+    border: #000 1px solid;
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    border-radius: 10px;
+}
+
+
+.skills__container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+   
+    width: 100%;
+   
+    
+    @media screen and (max-width: 768px){
+        padding: 0 10px;
+        justify-content: flex-start;
+    }
+}
+
+.skill {
+    margin: 10px;
+    
+    @media screen and (min-width: 768px) {
+        flex: 0 0 calc(12.5% - 20px); // For 8 elements per row on larger screens
+    }
+    
+    @media screen and (max-width: 767px) {
+        flex: 0 0 calc(20% - 20px); // For 2 elements per row on small screens
+    }
+}
+
+.skills__container :hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+

@@ -1,0 +1,92 @@
+[
+        {
+            "name": "DINO-RUNNER",
+            "img": "/src/assets/pictures/DInoRunner.png",
+            "description": "A Runner game made with the SDL2 library inspired by the Google Dino Game with a second Inverted Game mode. ",
+            "language_used": "C++",
+            "collaborator": [],
+            "link":{
+                "github": "https://github.com/Eclairsombre/Dino-Runner",
+                "website": ""
+            }
+        },
+        {
+            "name": "CHESS GAME WITH RANDOM AI",
+            "img": "/src/assets/pictures/chess.png",
+            "description": "A simple Chess Game made in C++ and SDL2 with a IA (It's still in dev so it's random at this time).  ",
+            "language_used": "C++",
+            "collaborator": [],
+            "link":{
+                "github": "https://github.com/Eclairsombre/Chess",
+                "website": ""
+            }
+        },
+        {
+            "name": "TETRIS",
+            "img": "/src/assets/pictures/tetris.png",
+            "description": "A Tetris Game made in C++ using the SDL2 library.  ",
+            "language_used": "C++",
+            "collaborator": [],
+            "link":{
+                "github": "https://github.com/Eclairsombre/Tetris",
+                "website": ""
+            }
+        },
+        {
+            "name": "SIMPLE CALCULATOR",
+            "img": "/src/assets/pictures/calculator.png",
+            "description": "This is a basic calculator project created using HTML, CSS, and JavaScript. The purpose of this project is to provide a hands-on experience for learning and practicing JavaScript.",
+            "language_used": "HTML, CSS, JavaScript",
+            "collaborator": [],
+            "link":{
+                "github": "https://github.com/Eclairsombre/SimpleCalculator",
+                "website": "https://eclairsombre.github.io/SimpleCalculator/"
+            }
+        },
+        {
+            "name": "GDMC-2023",
+            "img": "/src/assets/pictures/gdmc.png",
+            "description": "It's an AI Settlement Generation Competition in Minecraft, where you can participate by writing an algorithm that makes an interesting settlement for a given Minecraft map. ",
+            "language_used": "Python",
+            "collaborator": 
+                [
+                    {
+                        "name": "XeonOX",
+                        "github": ""
+                    },
+                    {
+                        "name": "Rexos9",
+                        "github": ""
+                    }
+                ]
+            ,
+            "link":{
+                "github": "https://github.com/Eclairsombre/GDMC-2023",
+                "website": ""
+            }
+        },
+        {
+            "name": "TODOLIST",
+            "img": "/src/assets/pictures/todolist.png",
+            "description": "A simple ToDoList made with React",
+            "language_used": "React, CSS",
+            "collaborator": [],
+            "link":{
+                "github": "https://github.com/Eclairsombre/ToDoList",
+                "website": "https://eclairsombre.github.io/ToDoList/"
+            }
+        },
+        {
+            "name": "RANDOMANIMEPICKER",
+            "img": "/src/assets/pictures/randomAnime.png",
+            "description": "A RandomAnimePicker made in React with a filter and using the api jikan moe API. ",
+            "language_used": "React, CSS",
+            "collaborator": [],
+            "link":{
+                "github": "https://github.com/Eclairsombre/RandomAnimePicker",
+                "website": "https://eclairsombre.github.io/RandomAnimePicker/"
+            }
+        }
+
+]
+
