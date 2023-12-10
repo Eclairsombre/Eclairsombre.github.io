@@ -1,6 +1,6 @@
 [
         {
-            "name": "DINO-RUNNER",
+            "name": "Dino-Runner",
             "img": "./DInoRunner.png",
             "description": "A Runner game made with the SDL2 library inspired by the Google Dino Game with a second Inverted Game mode. ",
             "language_used": "C++",
@@ -11,7 +11,7 @@
             }
         },
         {
-            "name": "CHESS GAME WITH RANDOM AI",
+            "name": "Chess Game with Random AI",
             "img": "./chess.png",
             "description": "A simple Chess Game made in C++ and SDL2 with a IA (It's still in dev so it's random at this time).  ",
             "language_used": "C++",
@@ -22,7 +22,7 @@
             }
         },
         {
-            "name": "TETRIS",
+            "name": "Tetris",
             "img": "./tetris.png",
             "description": "A Tetris Game made in C++ using the SDL2 library.  ",
             "language_used": "C++",
@@ -33,7 +33,7 @@
             }
         },
         {
-            "name": "SIMPLE CALCULATOR",
+            "name": "Simple Calculator",
             "img": "/calculator.png",
             "description": "This is a basic calculator project created using HTML, CSS, and JavaScript. The purpose of this project is to provide a hands-on experience for learning and practicing JavaScript.",
             "language_used": "HTML, CSS, JavaScript",
@@ -52,7 +52,7 @@
                 [
                     {
                         "name": "XeonOX",
-                        "github": ""
+                        "github": "https://github.com/Xeon0X"
                     },
                     {
                         "name": "Rexos9",
@@ -66,7 +66,7 @@
             }
         },
         {
-            "name": "TODOLIST",
+            "name": "ToDoList",
             "img": "./todolist.png",
             "description": "A simple ToDoList made with React",
             "language_used": "React, CSS",
@@ -77,7 +77,7 @@
             }
         },
         {
-            "name": "RANDOMANIMEPICKER",
+            "name": "RandomAnimePicker",
             "img": "./randomAnime.png",
             "description": "A RandomAnimePicker made in React with a filter and using the api jikan moe API. ",
             "language_used": "React, CSS",
@@ -86,6 +86,73 @@
                 "github": "https://github.com/Eclairsombre/RandomAnimePicker",
                 "website": "https://eclairsombre.github.io/RandomAnimePicker/"
             }
+        },
+        {
+            "name": "LaNuitDeL'info 2023",
+            "img": "./lndf2023.png",
+            "description": "La Nuit de l’Info is a national competition that brings together students, teachers and businesses to work together on the development of a web application. The Night takes place every year, from the first Thursday of December, sunset, until sunrise the next morning.Participants have one night to propose, implement and package a Web 2.0 application. The theme of this year was the global warming. ",
+            "language_used": "React, SCSS",
+            "collaborator": [
+                {
+                    "name": "Claquettes",
+                    "github": "https://github.com/Claquettes"
+                },
+                {
+                    "name": "NichiHachi",
+                    "github": "https://github.com/NichiHachi"
+                },
+                {
+                    "name": "VirisOnGithub",
+                    "github": "https://github.com/VirisOnGithub"
+                },
+                {
+                    "name": "TomBllt",
+                    "github": "https://github.com/TomBllt"
+                },
+                {
+                    "name": "Undermirrors",
+                    "github": "https://github.com/undermirrors"
+                },
+                {
+                    "name": "Janet-Doe",
+                    "github": "https://github.com/Janet-Doe"
+                },
+                {
+                    "name": "XeonOX",
+                    "github": "https://github.com/Xeon0X"
+                },
+                {
+                    "name": "Sckelenox",
+                    "github": "https://github.com/Sckelenox"
+                },
+                {
+                    "name": "FlashOnFire",
+                    "github": "https://github.com/FlashOnFire"
+                },
+                {
+                    "name": "Hatch01",
+                    "github": "https://github.com/hatch01"
+
+                },
+                {
+                    "name": "Titi-lg",
+                    "github": "https://github.com/Titi-lg"
+                },
+                {
+                    "name": "You6f",
+                    "github": "https://github.com/You6f"
+                },
+                {
+                    "name": "Morph01",
+                    "github": "https://github.com/Morph01"        
+                }
+                
+            ],
+            "link":{
+                "github": "https://github.com/PolyCrusader/PolyCrusader",
+                "website": "http://89.168.46.26/"
+            }
+
         }
 
 ]
