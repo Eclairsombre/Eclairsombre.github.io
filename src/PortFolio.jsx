@@ -10,8 +10,9 @@ import Footer from "./Footer";
 function PortFolio() {
   return (
     <div>
+      <div id="HelloAnimation"> </div>
       <Header />
-      <div className="HelloAnimation" id="HelloAnimation">
+      <div className="HelloAnimation">
         <TextAnimation />
       </div>
       <h1 className="About" id="About">

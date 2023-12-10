@@ -7,7 +7,7 @@ const Header = () => {
     <div>
       <div className="Header">
         <div className="Header__logoAndTitle">
-          <img src="./public/portfolio.svg" alt="logo" className="logo" />
+          <img src="./portfolio.svg" alt="logo" className="logo" />
           <div className="HeaderTitle">Eclairsombre's PortFolio</div>
         </div>
         <div className="Header__menu">
