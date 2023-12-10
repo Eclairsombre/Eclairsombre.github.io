@@ -152,8 +152,23 @@
                 "github": "https://github.com/PolyCrusader/PolyCrusader",
                 "website": "http://89.168.46.26/"
             }
+        },
+            
+            {
+                "name": "RandomAnimePickerExtension",
+                "img": "./animeExtension.png",
+                "description": "A Chrome Extension that allow you to pick a random anime from the jikan moe API. ",
+                "language_used": "React, SCSS",
+                "collaborator": [],
+                "link":{
+                    "github": "https://github.com/Eclairsombre/AnimePickerExtension",
+                    "website": ""
+                }
 
-        }
+                    
+            }
+
+        
 
 ]
 
