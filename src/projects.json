@@ -1,7 +1,7 @@
 [
         {
             "name": "DINO-RUNNER",
-            "img": "/src/assets/pictures/DInoRunner.png",
+            "img": "./DInoRunner.png",
             "description": "A Runner game made with the SDL2 library inspired by the Google Dino Game with a second Inverted Game mode. ",
             "language_used": "C++",
             "collaborator": [],
@@ -12,7 +12,7 @@
         },
         {
             "name": "CHESS GAME WITH RANDOM AI",
-            "img": "/src/assets/pictures/chess.png",
+            "img": "./chess.png",
             "description": "A simple Chess Game made in C++ and SDL2 with a IA (It's still in dev so it's random at this time).  ",
             "language_used": "C++",
             "collaborator": [],
@@ -23,7 +23,7 @@
         },
         {
             "name": "TETRIS",
-            "img": "/src/assets/pictures/tetris.png",
+            "img": "./tetris.png",
             "description": "A Tetris Game made in C++ using the SDL2 library.  ",
             "language_used": "C++",
             "collaborator": [],
@@ -34,7 +34,7 @@
         },
         {
             "name": "SIMPLE CALCULATOR",
-            "img": "/src/assets/pictures/calculator.png",
+            "img": "/calculator.png",
             "description": "This is a basic calculator project created using HTML, CSS, and JavaScript. The purpose of this project is to provide a hands-on experience for learning and practicing JavaScript.",
             "language_used": "HTML, CSS, JavaScript",
             "collaborator": [],
@@ -45,7 +45,7 @@
         },
         {
             "name": "GDMC-2023",
-            "img": "/src/assets/pictures/gdmc.png",
+            "img": "./gdmc.png",
             "description": "It's an AI Settlement Generation Competition in Minecraft, where you can participate by writing an algorithm that makes an interesting settlement for a given Minecraft map. ",
             "language_used": "Python",
             "collaborator": 
@@ -67,7 +67,7 @@
         },
         {
             "name": "TODOLIST",
-            "img": "/src/assets/pictures/todolist.png",
+            "img": "./todolist.png",
             "description": "A simple ToDoList made with React",
             "language_used": "React, CSS",
             "collaborator": [],
@@ -78,7 +78,7 @@
         },
         {
             "name": "RANDOMANIMEPICKER",
-            "img": "/src/assets/pictures/randomAnime.png",
+            "img": "./randomAnime.png",
             "description": "A RandomAnimePicker made in React with a filter and using the api jikan moe API. ",
             "language_used": "React, CSS",
             "collaborator": [],

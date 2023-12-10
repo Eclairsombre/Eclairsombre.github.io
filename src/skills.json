@@ -1,52 +1,52 @@
 [
         {
-            "src": "/src/assets/skills/html5.png",
+            "src": "./html5.png",
             "alt": "html"
         },
         {
-            "src": "/src/assets/skills/css3.png",
+            "src": "./css3.png",
             "alt": "css"
         },
         {
-            "src": "/src/assets/skills/javascript.png",
+            "src": "./javascript.png",
             "alt": "javascript"
         },
         {
-            "src": "/src/assets/skills/react.png",
+            "src": "./react.png",
             "alt": "react"
         },
         {
-            "src": "/src/assets/skills/git.png",
+            "src": "./git.png",
             "alt": "git"
         },
         {
-            "src": "/src/assets/skills/github.png",
+            "src": "./github.png",
             "alt": "github"
         },
         {
-            "src": "/src/assets/skills/c++.png",
+            "src": "./c++.png",
             "alt": "C++"
         },
         {
-            "src": "/src/assets/skills/vscode.png",
+            "src": "./vscode.png",
             "alt": "VsCode"
         },
         {
-            "src": "/src/assets/skills/python.png",
+            "src": "./python.png",
             "alt": "Python"
         },
         {
             "alt":"PHP",
-            "src":"/src/assets/skills/php.png"
+            "src":"./php.png"
         },
         
         {
             "alt":"JSON",
-            "src":"/src/assets/skills/json.png"
+            "src":"./json.png"
         },
         {
             "alt":"After Effects",
-            "src":"/src/assets/skills/ae.png"
+            "src":"./ae.png"
         }
         
 ]

@@ -10,14 +10,10 @@ function Project({
   collaborator,
   link,
 }) {
-  const [image, setImage] = useState(null);
-  import(img).then((image) => {
-    setImage(image.default);
-  });
   return (
     <div className="project">
       <h2 className="project__name">{name}</h2>
-      <img src={image} alt={name} className="project__image" />
+      <img src={img} alt={name} className="project__image" />
 
       <p className="project__description">{description}</p>
       <br />
