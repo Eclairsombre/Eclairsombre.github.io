@@ -159,7 +159,12 @@
                 "img": "./animeExtension.png",
                 "description": "A Chrome/Firefox Extension that allow you to pick a random anime from the jikan moe API. ",
                 "language_used": "React, SCSS",
-                "collaborator": [],
+                "collaborator": [
+                    {
+                        "name": "NichiHachi",
+                        "github": "https://github.com/NichiHachi"
+                    }
+                ],
                 "link":{
                     "github": "https://github.com/Eclairsombre/AnimePickerExtension",
                     "website": ""
