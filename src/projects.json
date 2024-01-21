@@ -184,7 +184,34 @@
                     "github": "https://github.com/Eclairsombre/2048",
                     "website": ""
                 }
+            },
+            {
+                "name": "TierListCreator",
+                "img": "./tierlist.png",
+                "description": "A Tierlist Creator made with React and SCSS.",
+                "language_used": "React, SCSS",
+                "collaborator": [
+                    
+                ],
+                "link":{
+                    "github": "https://github.com/Eclairsombre/TierListCreator",
+                    "website": "https://eclairsombre.github.io/TierListCreator/"
+                }
+            },
+            {
+                "name": "Game of Life",
+                "img": "./life.png",
+                "description": "A Representation of the Game of Life made with SDL2 and C++.",
+                "language_used": "C++",
+                "collaborator": [
+                    
+                ],
+                "link":{
+                    "github": "https://github.com/Eclairsombre/Game-of-life",
+                    "website": ""
+                }
             }
+
 
         
 
