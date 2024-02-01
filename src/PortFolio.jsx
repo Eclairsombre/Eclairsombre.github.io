@@ -15,13 +15,10 @@ function PortFolio() {
     <div>
       {selectedProject.length > 0 ? (
         <div className="projectPage">
-          <button
-            className="projectPage__close"
-            onClick={() => setSelectedProject([])}
-          >
-            Close
-          </button>
-          <ProjectPage project={selectedProject[0]} />
+          <ProjectPage
+            project={selectedProject[0]}
+            setSelectedProject={setSelectedProject}
+          />
         </div>
       ) : (
         <div>

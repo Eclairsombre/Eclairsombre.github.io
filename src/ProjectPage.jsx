@@ -1,32 +1,39 @@
 import React from "react";
+import "./ProjectPage.scss";
 
-function ProjectPage({ project }) {
+function ProjectPage({ project, setSelectedProject }) {
   console.log(project[0]);
   return (
-    <div className="project">
-      <h2 className="project__name">{project.name}</h2>
-      <img src={project.img} alt={project.name} className="project__image" />
+    <div className="pageProject">
+      <button
+        className="projectPage__close"
+        onClick={() => setSelectedProject([])}
+      >
+        Back
+      </button>
+      <h2 className="pageProject__name">{project.name}</h2>
+      <img
+        src={project.img}
+        alt={project.name}
+        className="pageProject__image"
+      />
 
-      <p className="project__description">{project.description}</p>
-      <br />
-      <p className="project__language">
-        Language used: {project.language_used}
-      </p>
+      <p className="pageProject__description">{project.description}</p>
+      <p className="pageProject__language">Language used :</p>
+      <p className="pageProject__language">{project.language_used}</p>
       {project.collaborator.length > 0 && (
-        <div className="project__collaborators">
-          <h3>Collaborators:</h3>
-          <ul>
+        <>
+          <p className="pageProject__language">Collaborators :</p>
+          <div className="pageProject__collaborators">
             {project.collaborator.map((collab, index) => (
-              <li key={index} className="project__collaborator">
-                <a className="linkProject" href={collab.github}>
-                  {collab.name}
-                </a>
-              </li>
+              <a className="linkProject" href={collab.github}>
+                {collab.name}
+              </a>
             ))}
-          </ul>
-        </div>
+          </div>
+        </>
       )}
-      <h3>Links :</h3>
+      <p className="pageProject__language">See More :</p>
       <div className="project__links">
         <a className="linkProject" href={project.link.github}>
           GitHub
