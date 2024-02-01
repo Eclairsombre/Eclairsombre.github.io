@@ -14,8 +14,8 @@ function Footer() {
         <span class="texte">Discord : eclairsombre</span>
       </button>
       <button
-        class="Btn"
-        onclick="window.open('https://github.com/Eclairsombre','_blank')"
+        className="Btn"
+        onClick={() => window.open("https://github.com/Eclairsombre", "_blank")}
       >
         <img
           src="./github.svg"
@@ -27,14 +27,21 @@ function Footer() {
       </button>
       <button
         class="Btn"
-        onclick="window.open('mailto:alexandre.thny@gmail.c:om','_blank')"
+        onclick={() =>
+          window.open("mailto:alexandre.thny@gmail.c:om", "_blank")
+        }
       >
         <img src="./mail.svg" alt="mail" class="svgIcon" height="30px" />
         <span class="texte">Mail</span>
       </button>
       <button
-        class="Btn"
-        onclick="window.open('https://linkedin.com/in/alexandre-thouny-281aa8267','_blank')"
+        className="Btn"
+        onClick={() =>
+          window.open(
+            "https://linkedin.com/in/alexandre-thouny-281aa8267",
+            "_blank"
+          )
+        }
       >
         <img
           src="./linkedin.svg"

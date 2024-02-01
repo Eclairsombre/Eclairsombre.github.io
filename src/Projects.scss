@@ -1,66 +1,41 @@
 .ProjectBox{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-   
-    margin-bottom: 50px;
-    
-    
-    
-    
-    
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
+
 
 body{
     background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
 
 }
 
-.project {
-   
-    width: 100%;
-    height: auto;
-    max-width: 600px;
-    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
-    transition: transform 0.3s;
-    margin: 20px;
-    display: inline-block;
-    
+.project{
+    display: flex;
     color: #fff;
-  }
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 600px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    transition: 0.3s;
+    overflow: hidden;
+    position: relative;
+  
+    cursor: pointer;
+} 
 
-  .project:hover {
-    transform: scale(1.05);
-  }
-
-  .project__image {
-    display: block;
-    margin: auto;
-    width: auto;
-    height: auto;
-    border-radius: 10px 10px 0 0;
-    object-fit: cover;
+.project img {
+  width: 100%; // take up 100% of the parent's width
+  height: 100%; // take up 100% of the parent's height
+  object-fit: cover; // resize the image to cover the container while maintaining its aspect ratio
 }
-
-    .project__name{
-        
-        font-weight: 700;
-        margin: 10px;
-        text-align: center;
-        margin-bottom: 20px;
-        text-decoration: underline 3px;
-    }
-
-    .project__description {
-        font-size: 16px;
-        font-weight: 500;
-        margin: 10px;
-        margin-top: 20px;
-        text-align: center;
-    }  
 
 .linkProject {
         
