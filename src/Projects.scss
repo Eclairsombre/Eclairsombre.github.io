@@ -33,8 +33,16 @@ body{
 
 .project img {
   width: 100%; // take up 100% of the parent's width
-  height: 100%; // take up 100% of the parent's height
-  object-fit: cover; // resize the image to cover the container while maintaining its aspect ratio
+  height: 80%; // take up 100% of the parent's height
+}
+
+.project__name{
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  text-align: center;
+  color : #fff;
+
 }
 
 .linkProject {
@@ -73,14 +81,7 @@ h3{
     margin-left: 10px;
 }
 
-.project__image{
 
-    width: 80%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-    margin-bottom: 10px;
-}
 
 
 @keyframes lights {
