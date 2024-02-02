@@ -223,6 +223,19 @@
                     "github": "https://github.com/Eclairsombre/Game-of-life",
                     "website": ""
                 }
+            },
+            {
+                "name": "Fractals",
+                "img": "./fractals.png",
+                "description": "A Fractals representation made with SDL2 and C++.",
+                "language_used": "C++",
+                "collaborator": [
+                    
+                ],
+                "link":{
+                    "github": "https://github.com/Eclairsombre/Fractals",
+                    "website": ""
+                }
             }
 
 
