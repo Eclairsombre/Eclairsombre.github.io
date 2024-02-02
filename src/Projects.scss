@@ -33,7 +33,8 @@ body{
 
 .project img {
   width: 100%; // take up 100% of the parent's width
-  height: 80%; // take up 100% of the parent's height
+  height: 90%; // take up 100% of the parent's height
+  object-fit: cover; // scale the image to cover the entire area
 }
 
 .project__name{
