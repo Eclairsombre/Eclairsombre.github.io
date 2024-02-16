@@ -39,6 +39,11 @@
             "alt":"PHP",
             "src":"./php.png"
         },
+        {
+            "alt":"SQL",
+            "src":"./sql.png"
+        }
+        ,
         
         {
             "alt":"JSON",
@@ -48,6 +53,6 @@
             "alt":"After Effects",
             "src":"./ae.png"
         }
-        
+     
 ]
 

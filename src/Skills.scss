@@ -30,6 +30,9 @@
 
 .skill {
     margin: 10px;
+
+    width: 100px;
+    
     
     @media screen and (min-width: 768px) {
         flex: 0 0 calc(12.5% - 20px); // For 8 elements per row on larger screens

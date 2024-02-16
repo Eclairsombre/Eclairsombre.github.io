@@ -236,6 +236,27 @@
                     "github": "https://github.com/Eclairsombre/Fractals",
                     "website": ""
                 }
+            },
+            {
+                "name": "Module Image LIFAP4",
+                "img": "./moduleImage.png",
+                "description": " A project for the LIFAP4 module at Polytech Lyon. It's a project that allows you to create pixels, image and show them with SDL2 with a zoom.",
+                "language_used": "C++" ,
+                "collaborator": [
+                    {
+                        "name": "XeonOX",
+                        "github": "https://github.com/Xeon0X"
+                    },
+                   
+                    {
+                        "name": "You6f",
+                        "github": "https://github.com/You6f"
+                    }
+                ],
+                "link":{
+                    "github": "https://github.com/Eclairsombre/Module-Image-LIFAP4",
+                    "website":""
+                }
             }
 
 
