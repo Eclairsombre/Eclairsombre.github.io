@@ -1,13 +1,20 @@
 import React from "react";
+import data from "./projects.json";
 import "./Projects.scss";
-import { useState, useEffect } from "react";
+import Card from "./Card";
 
-function Project({ setSelectedProject, project }) {
+function Projects() {
   return (
-    <div className="project" onClick={() => setSelectedProject([project])}>
-      <h2 className="project__name">{project.name}</h2>
-      <img src={project.img} alt={project.name} className="project__image" />
+    <div className="ProjectsBox">
+      <h1>Projects</h1>
+      <p>Voici mes projets réalisés et ceux en cours de réalisation :</p>
+      <div className="ListProject">
+        {data.map((element) => (
+          <Card props={element} />
+        ))}
+      </div>
     </div>
   );
 }
-export default Project;
+
+export default Projects;

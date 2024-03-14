@@ -1,50 +1,91 @@
-.skills{
-    margin-top: 20px;
- 
-    border: #000 1px solid;
-    width: fit-content;
-    height: fit-content;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
-    
-    margin-left: auto;
-    margin-right: auto;
-    color: #fff;
-    border-radius: 10px;
-}
-
-
-.skills__container{
+.SkillsBox{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 80%;
+    height: 100%;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #000000;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.SkillsBox > h1{
+    font-size: 2em;
+    color: #000;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    text-decoration: underline 3px;
+}
+.progress-bar {
+    width: 300px;
+    height: 20px;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #000000;
+}
+
+.progress-bar > .progress {
+    height: 100%;
+    background-color: #000;
+    border-radius: 10px;
+    width: 50%;    
+    animation: progress 2s ease-out forwards;
+
+}
+
+@keyframes progress {
+    0% {
+        width: 0%;
+    }
    
-    width: 100%;
-   
-    
-    @media screen and (max-width: 768px){
-        padding: 0 10px;
-        justify-content: flex-start;
-    }
 }
 
-.skill {
-    margin: 10px;
 
-    width: 100px;
-    
-    
-    @media screen and (min-width: 768px) {
-        flex: 0 0 calc(12.5% - 20px); // For 8 elements per row on larger screens
-    }
-    
-    @media screen and (max-width: 767px) {
-        flex: 0 0 calc(20% - 20px); // For 2 elements per row on small screens
-    }
+.skill{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;  
 }
 
-.skills__container :hover{
-    transform: scale(1.1);
-    transition: all 0.3s ease-in-out;
+.skill > p {
+    font-size: 1.5em;
+    color: #000;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
 }
 
+.SkillsBox > p {
+font-size: 1.5em;
+  color: #000;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+    
+}
+
+.animated-element {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .animated-element.animate {
+    opacity: 1;
+  }

@@ -8,15 +8,9 @@ const Header = () => {
       <div className="Header">
         <div className="Header__logoAndTitle">
           <img src="./portfolio.svg" alt="logo" className="logo" />
-          <div className="HeaderTitle">Eclairsombre's PortFolio</div>
+          <div className="HeaderTitle">Alexandre THOUNY</div>
         </div>
         <div className="Header__menu">
-          <a
-            href="#HelloAnimation"
-            className="Header__menu__item Header__menu__item--active"
-          >
-            Home
-          </a>
           <a
             href="#About"
             className="Header__menu__item Header__menu__item--active"

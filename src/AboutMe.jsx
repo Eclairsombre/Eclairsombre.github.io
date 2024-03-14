@@ -3,12 +3,19 @@ import "./AboutMe.scss";
 
 function AboutMe() {
   return (
-    <div className="AboutMe">
+    <div className="AboutMeBox">
+      <h1 className="AboutMeTitle">About Me</h1>
       <p className="AboutMeText">
-        Hi ! I'm Alexandre THOUNY , also know as Eclairsombre, a french student
-        in computer science. I am currently in my second year of preparation at
-        Polytech Lyon.
+        Je suis Alexandre THOUNY, un étudiant de 19 ans actuellement en prépa
+        intégrée à Polytech Lyon.
+        <br></br>
+        Ma passion pour l'informatique me pousse a découvrir de nouveau domaine
+        et à me perfectionner dans les domaines que je connais déjà.
+        <br></br>
+        Je suis actuellement a la recherche d'un alternance de 3 ans.
       </p>
+      <br></br>
+      <br></br>
     </div>
   );
 }

@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import PortFolio from "./PortFolio.jsx";
+import Portfolio from "/src/Portfolio.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <PortFolio />
+    <Portfolio />
   </React.StrictMode>
 );

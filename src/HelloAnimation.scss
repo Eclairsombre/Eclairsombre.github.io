@@ -1,5 +1,5 @@
 .HelloAnimation{
-    color: white;
+    color: #000;
     font-size: 50px;
     text-align: center;
     font-weight: 700;
@@ -9,16 +9,14 @@
     margin-right: auto;
     width: fit-content;
     height: fit-content;
-    
-
-    
-   animation: lights 5s 750ms linear infinite;
-
-
-    
-   
+    animation: lights 5s 750ms linear infinite;
 }
 
-
-
-
+.boxText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+   
+}

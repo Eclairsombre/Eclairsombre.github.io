@@ -1,10 +1,54 @@
 [
         {
+            "name": "8T",
+            "img": "",
+            "description": "8T est un jeu de plateau qui réinvente le traditionnel tic-tac-toe en introduisant de nouvelles règles, transformant ainsi l'expérience de jeu avec SDL2. Ce projet a été réalisé dans le cadre de l'UE LIFAPCD",
+            "language_used": ["C++"],
+            "statut" : "En cours de développement",
+            "link":{
+                "github": "https://forge.univ-lyon1.fr/p2203381/8T",
+                "website": ""
+            }
+        },
+        {
+            "name": "Connect4IA",
+            "img": "",
+            "description": " Connect4IA est un jeu de puissance 4 avec une IA MinMax, AlphaBeta et MTCS avec une interface graphique en python et une implémentation sur un bras robotique NED.",
+            "language_used": ["Python"],
+            "statut" : "En cours de développement",
+            "link":{
+                "github": "https://github.com/Xeon0X/Connect4AI",
+                "website": ""
+            }
+        },
+        {
+            "name": "OnePieceWiki",
+            "img": "",
+            "description": "OnePieceWiki est un site web qui permet de rechercher des informations sur l'univers de One Piece. ",
+            "language_used": ["React", "SCSS"],
+            "statut" : "En cours de développement",
+            "link":{
+                "github": "https://github.com/Eclairsombre/OnePieceWiki",
+                "website": ""
+            }
+        },
+        {
+            "name": "FlashCardApp",
+            "img": "",
+            "description": " FlashCardApp est une application web qui permet de créer des flashcards pour apprendre des mots de vocabulaire. Ce projet a pour but d'apprendre les basesde Java. ",
+            "language_used": ["Java"],
+            "statut" : "En cours de développement",
+            "link":{
+                "github": "https://forge.univ-lyon1.fr/p2203381/8T",
+                "website": ""
+            }
+        },
+        {
             "name": "Dino-Runner",
             "img": "./DInoRunner.png",
             "description": "A Runner game made with the SDL2 library inspired by the Google Dino Game with a second Inverted Game mode. ",
-            "language_used": "C++",
-            "collaborator": [],
+            "language_used": ["C++"],
+            "statut" : "Développement terminé",
             "link":{
                 "github": "https://github.com/Eclairsombre/Dino-Runner",
                 "website": ""
@@ -14,8 +58,8 @@
             "name": "Chess Game with Random AI",
             "img": "./chess.png",
             "description": "A simple Chess Game made in C++ and SDL2 with a IA (It's still in dev so it's random at this time).  ",
-            "language_used": "C++",
-            "collaborator": [],
+            "language_used": ["C++"],
+            "statut" : "En cours de développement",
             "link":{
                 "github": "https://github.com/Eclairsombre/Chess",
                 "website": ""
@@ -25,8 +69,8 @@
             "name": "Tetris",
             "img": "./tetris.png",
             "description": "A Tetris Game made in C++ using the SDL2 library.  ",
-            "language_used": "C++",
-            "collaborator": [],
+            "language_used": ["C++"],
+            "statut" : "Développement terminé",
             "link":{
                 "github": "https://github.com/Eclairsombre/Tetris",
                 "website": ""
@@ -36,8 +80,8 @@
             "name": "Simple Calculator",
             "img": "/calculator.png",
             "description": "This is a basic calculator project created using HTML, CSS, and JavaScript. The purpose of this project is to provide a hands-on experience for learning and practicing JavaScript.",
-            "language_used": "HTML, CSS, JavaScript",
-            "collaborator": [],
+            "language_used": ["HTML", "CSS", "JavaScript"],
+            "statut" : "Développement terminé",
             "link":{
                 "github": "https://github.com/Eclairsombre/SimpleCalculator",
                 "website": "https://eclairsombre.github.io/SimpleCalculator/"
@@ -47,18 +91,8 @@
             "name": "GDMC-2023",
             "img": "./gdmc.png",
             "description": "It's an AI Settlement Generation Competition in Minecraft, where you can participate by writing an algorithm that makes an interesting settlement for a given Minecraft map. ",
-            "language_used": "Python",
-            "collaborator": 
-                [
-                    {
-                        "name": "XeonOX",
-                        "github": "https://github.com/Xeon0X"
-                    },
-                    {
-                        "name": "Rexos9",
-                        "github": ""
-                    }
-                ]
+            "language_used": ["Python"],
+            "statut" :"Développement terminé"
             ,
             "link":{
                 "github": "https://github.com/Eclairsombre/GDMC-2023",
@@ -69,8 +103,8 @@
             "name": "ToDoList",
             "img": "./todolist.png",
             "description": "A simple ToDoList made with React",
-            "language_used": "React, CSS",
-            "collaborator": [],
+            "language_used": ["React", "CSS"],
+            "statut" : "Développement terminé",
             "link":{
                 "github": "https://github.com/Eclairsombre/ToDoList",
                 "website": "https://eclairsombre.github.io/ToDoList/"
@@ -80,8 +114,8 @@
             "name": "RandomAnimePicker",
             "img": "./randomAnime.png",
             "description": "A RandomAnimePicker made in React with a filter and using the api jikan moe API. ",
-            "language_used": "React, CSS",
-            "collaborator": [],
+            "language_used": ["React", "CSS"],
+            "statut" : "Développement terminé",
             "link":{
                 "github": "https://github.com/Eclairsombre/RandomAnimePicker",
                 "website": "https://eclairsombre.github.io/RandomAnimePicker/"
@@ -91,63 +125,8 @@
             "name": "LaNuitDeL'info 2023",
             "img": "./lndf2023.png",
             "description": "La Nuit de l’Info is a national competition that brings together students, teachers and businesses to work together on the development of a web application. The Night takes place every year, from the first Thursday of December, sunset, until sunrise the next morning.Participants have one night to propose, implement and package a Web 2.0 application. The theme of this year was the global warming. ",
-            "language_used": "React, SCSS",
-            "collaborator": [
-                {
-                    "name": "Claquettes",
-                    "github": "https://github.com/Claquettes"
-                },
-                {
-                    "name": "NichiHachi",
-                    "github": "https://github.com/NichiHachi"
-                },
-                {
-                    "name": "VirisOnGithub",
-                    "github": "https://github.com/VirisOnGithub"
-                },
-                {
-                    "name": "TomBllt",
-                    "github": "https://github.com/TomBllt"
-                },
-                {
-                    "name": "Undermirrors",
-                    "github": "https://github.com/undermirrors"
-                },
-                {
-                    "name": "Janet-Doe",
-                    "github": "https://github.com/Janet-Doe"
-                },
-                {
-                    "name": "XeonOX",
-                    "github": "https://github.com/Xeon0X"
-                },
-                {
-                    "name": "Sckelenox",
-                    "github": "https://github.com/Sckelenox"
-                },
-                {
-                    "name": "FlashOnFire",
-                    "github": "https://github.com/FlashOnFire"
-                },
-                {
-                    "name": "Hatch01",
-                    "github": "https://github.com/hatch01"
-
-                },
-                {
-                    "name": "Titi-lg",
-                    "github": "https://github.com/Titi-lg"
-                },
-                {
-                    "name": "You6f",
-                    "github": "https://github.com/You6f"
-                },
-                {
-                    "name": "Morph01",
-                    "github": "https://github.com/Morph01"        
-                }
-                
-            ],
+            "language_used": ["React", "SCSS"],
+            "statut" : "Développement terminé",
             "link":{
                 "github": "https://github.com/PolyCrusader/PolyCrusader",
                 "website": "http://89.168.46.26/"
@@ -155,16 +134,11 @@
         },
             
             {
-                "name": "RandomAnimePickerExtension",
+                "name": "AnimePickerExtension",
                 "img": "./animeExtension.png",
                 "description": "A Chrome/Firefox Extension that allow you to pick a random anime from the jikan moe API. ",
-                "language_used": "React, SCSS",
-                "collaborator": [
-                    {
-                        "name": "NichiHachi",
-                        "github": "https://github.com/NichiHachi"
-                    }
-                ],
+                "language_used": ["React", "SCSS"],
+                "statut" : "Développement terminé",
                 "link":{
                     "github": "https://github.com/Eclairsombre/AnimePickerExtension",
                     "website": ""
@@ -176,10 +150,8 @@
                 "name": "PortFolio",
                 "img": "./portfolio.png",
                 "description": "My Portfolio made with React and SCSS.",
-                "language_used": "React, SCSS",
-                "collaborator": [
-                    
-                ],
+                "language_used": ["React", "SCSS"],
+                "statut" : "Développement terminé",
                 "link":{
                     "github": "https://github.com/Eclairsombre/Eclairsombre.github.io",
                     "website": "https://eclairsombre.github.io/"
@@ -189,10 +161,8 @@
                 "name": "2048",
                 "img": "./2048.png",
                 "description": "A simple 2048 Game made with SDL2 and C++.",
-                "language_used": "C++",
-                "collaborator": [
-                    
-                ],
+                "language_used": ["C++"],
+                "statut" : "Développement terminé",
                 "link":{
                     "github": "https://github.com/Eclairsombre/2048",
                     "website": ""
@@ -202,10 +172,8 @@
                 "name": "TierListCreator",
                 "img": "./tierlist.png",
                 "description": "A Tierlist Creator made with React and SCSS.",
-                "language_used": "React, SCSS",
-                "collaborator": [
-                    
-                ],
+                "language_used":[ "React", "SCSS"],
+                "statut" : "Développement terminé",
                 "link":{
                     "github": "https://github.com/Eclairsombre/TierListCreator",
                     "website": "https://eclairsombre.github.io/TierListCreator/"
@@ -215,10 +183,8 @@
                 "name": "Game of Life",
                 "img": "./life.png",
                 "description": "A Representation of the Game of Life made with SDL2 and C++.",
-                "language_used": "C++",
-                "collaborator": [
-                    
-                ],
+                "language_used":[ "C++"],
+                "statut" : "Développement terminé",
                 "link":{
                     "github": "https://github.com/Eclairsombre/Game-of-life",
                     "website": ""
@@ -228,34 +194,14 @@
                 "name": "Fractals",
                 "img": "./fractals.png",
                 "description": "A Fractals representation made with SDL2 and C++.",
-                "language_used": "C++",
-                "collaborator": [
-                    
+                "language_used":[
+                    "C++"
+                
                 ],
+                "statut" : "Développement terminé",
                 "link":{
                     "github": "https://github.com/Eclairsombre/Fractals",
                     "website": ""
-                }
-            },
-            {
-                "name": "Module Image LIFAP4",
-                "img": "./moduleImage.png",
-                "description": " A project for the LIFAP4 module at Polytech Lyon. It's a project that allows you to create pixels, image and show them with SDL2 with a zoom.",
-                "language_used": "C++" ,
-                "collaborator": [
-                    {
-                        "name": "XeonOX",
-                        "github": "https://github.com/Xeon0X"
-                    },
-                   
-                    {
-                        "name": "You6f",
-                        "github": "https://github.com/You6f"
-                    }
-                ],
-                "link":{
-                    "github": "https://github.com/Eclairsombre/Module-Image-LIFAP4",
-                    "website":""
                 }
             }
 

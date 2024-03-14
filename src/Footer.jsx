@@ -27,9 +27,7 @@ function Footer() {
       </button>
       <button
         class="Btn"
-        onclick={() =>
-          window.open("mailto:alexandre.thny@gmail.c:om", "_blank")
-        }
+        onClick={() => window.open("mailto:alexandre.thny@gmail.com", "_blank")}
       >
         <img src="./mail.svg" alt="mail" class="svgIcon" height="30px" />
         <span class="texte">Mail</span>
