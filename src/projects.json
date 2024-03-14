@@ -46,7 +46,7 @@
         {
             "name": "Dino-Runner",
             "img": "./DInoRunner.png",
-            "description": "A Runner game made with the SDL2 library inspired by the Google Dino Game with a second Inverted Game mode. ",
+            "description": "Un jeu de type runner créé avec la librairie SDL2 et inspiré par le celébre jeu du Dino de Google avec un nouveau mode de jeu inversé. ",
             "language_used": ["C++"],
             "statut" : "Développement terminé",
             "link":{
@@ -57,7 +57,7 @@
         {
             "name": "Chess Game with Random AI",
             "img": "./chess.png",
-            "description": "A simple Chess Game made in C++ and SDL2 with a IA (It's still in dev so it's random at this time).  ",
+            "description": "Un simple jeu d'echecs contre une IA créé avec la librairie SDL2.  ",
             "language_used": ["C++"],
             "statut" : "En cours de développement",
             "link":{
@@ -68,7 +68,7 @@
         {
             "name": "Tetris",
             "img": "./tetris.png",
-            "description": "A Tetris Game made in C++ using the SDL2 library.  ",
+            "description": "Un simple jeu de Tetris créé avec la librairie SDL2.  ",
             "language_used": ["C++"],
             "statut" : "Développement terminé",
             "link":{
@@ -79,7 +79,7 @@
         {
             "name": "Simple Calculator",
             "img": "/calculator.png",
-            "description": "This is a basic calculator project created using HTML, CSS, and JavaScript. The purpose of this project is to provide a hands-on experience for learning and practicing JavaScript.",
+            "description": "Voici un projet de calculatrice basique créé en utilisant HTML, CSS et JavaScript. Le but de ce projet est de fournir une expérience pratique pour apprendre et pratiquer JavaScript.",
             "language_used": ["HTML", "CSS", "JavaScript"],
             "statut" : "Développement terminé",
             "link":{
@@ -90,7 +90,7 @@
         {
             "name": "GDMC-2023",
             "img": "./gdmc.png",
-            "description": "It's an AI Settlement Generation Competition in Minecraft, where you can participate by writing an algorithm that makes an interesting settlement for a given Minecraft map. ",
+            "description": "Il s'agit d'une compétition de génération de colonies IA dans Minecraft, où vous pouvez participer en écrivant un algorithme qui crée une ville intéressante pour une carte Minecraft donnée. ",
             "language_used": ["Python"],
             "statut" :"Développement terminé"
             ,
@@ -102,7 +102,7 @@
         {
             "name": "ToDoList",
             "img": "./todolist.png",
-            "description": "A simple ToDoList made with React",
+            "description": "Une simple ToDoList créé avec React.",
             "language_used": ["React", "CSS"],
             "statut" : "Développement terminé",
             "link":{
@@ -113,7 +113,7 @@
         {
             "name": "RandomAnimePicker",
             "img": "./randomAnime.png",
-            "description": "A RandomAnimePicker made in React with a filter and using the api jikan moe API. ",
+            "description": "Un sélecteur aléatoire d'anime réalisé en React avec un filtre de recherche et en utilisant l'API Jikan Moe. ",
             "language_used": ["React", "CSS"],
             "statut" : "Développement terminé",
             "link":{
@@ -124,7 +124,7 @@
         {
             "name": "LaNuitDeL'info 2023",
             "img": "./lndf2023.png",
-            "description": "La Nuit de l’Info is a national competition that brings together students, teachers and businesses to work together on the development of a web application. The Night takes place every year, from the first Thursday of December, sunset, until sunrise the next morning.Participants have one night to propose, implement and package a Web 2.0 application. The theme of this year was the global warming. ",
+            "description": "La Nuit de l'Info est une compétition nationale qui rassemble des étudiants, des enseignants et des entreprises pour travailler ensemble sur le développement d'une application web. La Nuit a lieu chaque année, du premier jeudi de décembre au coucher du soleil jusqu'au lever du soleil le lendemain matin. Les participants ont une nuit pour proposer, mettre en œuvre et emballer une application Web 2.0. Le thème de cette année était le réchauffement climatique. ",
             "language_used": ["React", "SCSS"],
             "statut" : "Développement terminé",
             "link":{
@@ -136,7 +136,7 @@
             {
                 "name": "AnimePickerExtension",
                 "img": "./animeExtension.png",
-                "description": "A Chrome/Firefox Extension that allow you to pick a random anime from the jikan moe API. ",
+                "description": "Une extension Chrome/Firefox qui vous permet de choisir un anime aléatoire à partir de l'API Jikan Moe.",
                 "language_used": ["React", "SCSS"],
                 "statut" : "Développement terminé",
                 "link":{
@@ -149,7 +149,7 @@
             {
                 "name": "PortFolio",
                 "img": "./portfolio.png",
-                "description": "My Portfolio made with React and SCSS.",
+                "description": "Mon Portfolio créé en React et SCSS.",
                 "language_used": ["React", "SCSS"],
                 "statut" : "Développement terminé",
                 "link":{
@@ -160,7 +160,7 @@
             {
                 "name": "2048",
                 "img": "./2048.png",
-                "description": "A simple 2048 Game made with SDL2 and C++.",
+                "description": "Un simple jeu de 2048 créé avec SDL2 et C++.",
                 "language_used": ["C++"],
                 "statut" : "Développement terminé",
                 "link":{
@@ -171,7 +171,7 @@
             {
                 "name": "TierListCreator",
                 "img": "./tierlist.png",
-                "description": "A Tierlist Creator made with React and SCSS.",
+                "description": "Un createur de Tierlist créé avec React et SCSS.",
                 "language_used":[ "React", "SCSS"],
                 "statut" : "Développement terminé",
                 "link":{
@@ -182,7 +182,7 @@
             {
                 "name": "Game of Life",
                 "img": "./life.png",
-                "description": "A Representation of the Game of Life made with SDL2 and C++.",
+                "description": "Une représentation du jeu de la vie créer avec SDL2 et C++.",
                 "language_used":[ "C++"],
                 "statut" : "Développement terminé",
                 "link":{
@@ -193,7 +193,7 @@
             {
                 "name": "Fractals",
                 "img": "./fractals.png",
-                "description": "A Fractals representation made with SDL2 and C++.",
+                "description": "Une représentation de fractales créé avec SDL2 and C++.",
                 "language_used":[
                     "C++"
                 
