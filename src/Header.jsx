@@ -1,14 +1,30 @@
 import React from "react";
-
+import { useEffect } from "react";
 import "./Header.scss";
 
-const Header = () => {
+const Header = ({ setDarkMode, darkMode }) => {
+  useEffect(() => {
+    if (darkMode) {
+      document.body.classList.add("dark-mode");
+    } else {
+      document.body.classList.remove("dark-mode");
+    }
+  }, [darkMode]);
   return (
     <div>
-      <div className="Header">
+      <div className={`Header ${darkMode ? "dark" : ""}`}>
         <div className="Header__logoAndTitle">
           <img src="./portfolio.svg" alt="logo" className="logo" />
           <div className="HeaderTitle">Alexandre THOUNY</div>
+        </div>
+        <div className="Header__darkMode">
+          <button onClick={() => setDarkMode(!darkMode)} className="changeMode">
+            <img
+              src={darkMode ? "./moon.svg" : "./sun.svg"}
+              alt="moon"
+              className="moon"
+            />
+          </button>
         </div>
         <div className="Header__menu">
           <a
@@ -28,12 +44,6 @@ const Header = () => {
             className="Header__menu__item Header__menu__item--active"
           >
             Projects
-          </a>
-          <a
-            href="#Contact"
-            className="Header__menu__item Header__menu__item--active"
-          >
-            Contact
           </a>
         </div>
       </div>

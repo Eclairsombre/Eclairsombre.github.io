@@ -2,9 +2,14 @@ import React from "react";
 import "./Footer.scss";
 
 function Footer() {
+  const copyToClipboard = () => {
+    const discordText = "eclairsombre";
+    navigator.clipboard.writeText(discordText);
+  };
+
   return (
-    <footer>
-      <button class="Btn">
+    <footer id="Skills">
+      <button class="Btn" onClick={copyToClipboard}>
         <img
           src="./discord.svg"
           alt="Discord logo"

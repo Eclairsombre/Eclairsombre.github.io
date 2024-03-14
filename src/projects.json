@@ -1,7 +1,7 @@
 [
         {
             "name": "8T",
-            "img": "",
+            "img": "/8t.png",
             "description": "8T est un jeu de plateau qui réinvente le traditionnel tic-tac-toe en introduisant de nouvelles règles, transformant ainsi l'expérience de jeu avec SDL2. Ce projet a été réalisé dans le cadre de l'UE LIFAPCD",
             "language_used": ["C++"],
             "statut" : "En cours de développement",
@@ -12,7 +12,7 @@
         },
         {
             "name": "Connect4IA",
-            "img": "",
+            "img": "/connect4ia.png",
             "description": " Connect4IA est un jeu de puissance 4 avec une IA MinMax, AlphaBeta et MTCS avec une interface graphique en python et une implémentation sur un bras robotique NED.",
             "language_used": ["Python"],
             "statut" : "En cours de développement",
@@ -23,7 +23,7 @@
         },
         {
             "name": "OnePieceWiki",
-            "img": "",
+            "img": "/onepiecewiki.png",
             "description": "OnePieceWiki est un site web qui permet de rechercher des informations sur l'univers de One Piece. ",
             "language_used": ["React", "SCSS"],
             "statut" : "En cours de développement",
@@ -34,12 +34,12 @@
         },
         {
             "name": "FlashCardApp",
-            "img": "",
+            "img": "/flashcard.png",
             "description": " FlashCardApp est une application web qui permet de créer des flashcards pour apprendre des mots de vocabulaire. Ce projet a pour but d'apprendre les basesde Java. ",
             "language_used": ["Java"],
             "statut" : "En cours de développement",
             "link":{
-                "github": "https://forge.univ-lyon1.fr/p2203381/8T",
+                "github": "https://github.com/Eclairsombre/FlashCardApp",
                 "website": ""
             }
         },
@@ -124,7 +124,7 @@
         {
             "name": "LaNuitDeL'info 2023",
             "img": "./lndf2023.png",
-            "description": "La Nuit de l'Info est une compétition nationale qui rassemble des étudiants, des enseignants et des entreprises pour travailler ensemble sur le développement d'une application web. La Nuit a lieu chaque année, du premier jeudi de décembre au coucher du soleil jusqu'au lever du soleil le lendemain matin. Les participants ont une nuit pour proposer, mettre en œuvre et emballer une application Web 2.0. Le thème de cette année était le réchauffement climatique. ",
+            "description": "La Nuit de l'Info est une compétition nationale qui rassemble des étudiants, des enseignants et des entreprises pour travailler ensemble sur le développement d'une application web. La Nuit a lieu chaque année, du premier jeudi de décembre au coucher du soleil jusqu'au lever du soleil le lendemain matin. Le thème de cette année était le réchauffement climatique. ",
             "language_used": ["React", "SCSS"],
             "statut" : "Développement terminé",
             "link":{

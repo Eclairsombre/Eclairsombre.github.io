@@ -1,9 +1,9 @@
 import React from "react";
 import "./AboutMe.scss";
 
-function AboutMe() {
+function AboutMe({ darkMode }) {
   return (
-    <div className="AboutMeBox">
+    <div className={`AboutMeBox ${darkMode ? "dark" : ""}`}>
       <h1 className="AboutMeTitle">About Me</h1>
       <p className="AboutMeText">
         Je suis Alexandre THOUNY, un étudiant de 19 ans actuellement en prépa

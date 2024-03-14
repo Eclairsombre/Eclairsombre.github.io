@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Spartan';
+    src: url('./font/league-spartan.bold.ttf') format('truetype');
+}
+  .Portfolio{
+      font-family: 'Spartan', sans-serif;
+  }
+
+  
+
+  body.dark-mode {
+    background-color: #000;
+    color: #fff;
+  }

@@ -10,10 +10,33 @@
     position: fixed;
     top: 0;
     left: 0;
-
     right: 0;
 
-   
+    &.dark {
+        background: rgba(0, 0, 0, 0.75);
+        color: #fff;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 1);
+
+        .Header__logoAndTitle {
+            .logo {
+                filter: invert(1);
+            }
+
+            .HeaderTitle {
+                text-decoration-color: #fff;
+            }
+        }
+
+        .Header__menu {
+            .Header__menu__item {
+                color: #fff;
+            }
+        }
+
+        .Header__menu__item--active:after {
+            background-color: #fff;
+        }
+    }
 
     .Header__logoAndTitle {
         display: flex;
@@ -57,4 +80,25 @@
     .Header__menu__item--active:hover:after{
         width: 100%;
     }
+}
+
+
+.changeMode{
+    
+    
+    cursor: pointer;
+    transition: transform 0.3s;
+    width: 50px;
+    border: none;
+    background: transparent;
+
+    &:hover{
+        transform: scale(1.1);
+    }
+
+    &.dark{
+        filter: invert(1);
+    }
+    
+    
 }

@@ -1,9 +1,10 @@
 import { TypeAnimation } from "react-type-animation";
 import "./HelloAnimation.scss";
 
-const TextAnimation = () => {
+const TextAnimation = ({ darkMode }) => {
+  console.log(darkMode);
   return (
-    <div className="boxText">
+    <div id="About" className={`boxText `}>
       <TypeAnimation
         sequence={[
           "Hello World !",

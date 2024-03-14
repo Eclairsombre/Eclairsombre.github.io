@@ -4,7 +4,7 @@
   height: 400px;
   margin: 20px;
   cursor: pointer;
-  border: 1px solid #f1f1f1;
+ 
   perspective: 1000px; 
 }
 
@@ -50,16 +50,17 @@
 }
 
 .flip-card-back {
-  background-color: #fff;
   transform: rotateY(180deg);
   border-radius: 10px;
   transition: all 0.3s ease-in-out;
 
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
+
+
 
 
 .flip-card.flipped .flip-card-inner {
@@ -102,7 +103,7 @@
   display: flex;
 }
 
-.flip-card:hover .TitleBox {
+.flip-card-front:hover .TitleBox {
   opacity: 1;
 }
 
@@ -114,11 +115,35 @@
   align-items: center;
   width: 100%;
 }
+
+
 .animated-element {
   opacity: 0;
-  transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .animated-element.animate {
   opacity: 1;
+}
+
+.LinkBox a{
+  text-decoration: none;
+  color:#000;
+}
+
+.LinkBox a.darkLink {
+  color: #fff;
+}
+
+.flip-card-back.dark {
+  background-color: #333;
+  color: #f1f1f1;
+  box-shadow: none;
+
+}
+
+.flip-card-back.dark >a{
+  text-decoration: none;
+  color: #fff;
+  box-shadow: none;
 }

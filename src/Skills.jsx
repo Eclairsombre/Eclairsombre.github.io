@@ -3,7 +3,7 @@ import { useInView } from "react-intersection-observer";
 
 import "./Skills.scss";
 
-function Skills() {
+function Skills({ darkMode }) {
   const [ref1, inView1] = useInView({ triggerOnce: true, threshold: 0.5 });
   const [ref2, inView2] = useInView({ triggerOnce: true, threshold: 0.5 });
   const [ref3, inView3] = useInView({ triggerOnce: true, threshold: 0.5 });
@@ -19,7 +19,7 @@ function Skills() {
   const [ref13, inView13] = useInView({ triggerOnce: true, threshold: 0.5 });
 
   return (
-    <div className="SkillsBox">
+    <div className={`SkillsBox ${darkMode ? "dark" : ""}`}>
       <h1>Skills</h1>
       <p>
         Voici quelques-unes des compétences que j'ai apprises et utilisées dans
@@ -32,7 +32,8 @@ function Skills() {
             className={`skill animated-element ${inView1 ? "animate" : ""}`}
           >
             <p style={{ marginRight: "20px" }}>C++ :</p>
-            <div className="progress-bar">
+            <div className={`progress-bar ${darkMode ? "dark" : ""}`}>
+              {" "}
               <div className="progress" style={{ width: "90%" }}></div>
             </div>
           </div>
@@ -44,7 +45,7 @@ function Skills() {
           >
             {" "}
             <p style={{ marginRight: "20px" }}>HTML :</p>
-            <div className="progress-bar">
+            <div className={`progress-bar ${darkMode ? "dark" : ""}`}>
               <div className="progress" style={{ width: "70%" }}></div>
             </div>
           </div>
@@ -56,7 +57,7 @@ function Skills() {
           >
             {" "}
             <p style={{ marginRight: "20px" }}>CSS :</p>
-            <div className="progress-bar">
+            <div className={`progress-bar ${darkMode ? "dark" : ""}`}>
               <div className="progress" style={{ width: "60%" }}></div>
             </div>
           </div>
@@ -68,7 +69,7 @@ function Skills() {
           >
             {" "}
             <p style={{ marginRight: "20px" }}>React :</p>
-            <div className="progress-bar">
+            <div className={`progress-bar ${darkMode ? "dark" : ""}`}>
               <div className="progress" style={{ width: "70%" }}></div>
             </div>
           </div>
@@ -80,7 +81,7 @@ function Skills() {
           >
             {" "}
             <p style={{ marginRight: "20px" }}>JavaScript :</p>
-            <div className="progress-bar">
+            <div className={`progress-bar ${darkMode ? "dark" : ""}`}>
               <div className="progress" style={{ width: "60%" }}></div>
             </div>
           </div>
@@ -92,7 +93,7 @@ function Skills() {
           >
             {" "}
             <p style={{ marginRight: "20px" }}>Python :</p>
-            <div className="progress-bar">
+            <div className={`progress-bar ${darkMode ? "dark" : ""}`}>
               <div className="progress" style={{ width: "80%" }}></div>
             </div>
           </div>
@@ -104,7 +105,7 @@ function Skills() {
           >
             {" "}
             <p style={{ marginRight: "20px" }}>Java :</p>
-            <div className="progress-bar">
+            <div className={`progress-bar ${darkMode ? "dark" : ""}`}>
               <div className="progress" style={{ width: "50%" }}></div>
             </div>
           </div>
@@ -116,7 +117,7 @@ function Skills() {
           >
             {" "}
             <p style={{ marginRight: "20px" }}>SQL :</p>
-            <div className="progress-bar">
+            <div className={`progress-bar ${darkMode ? "dark" : ""}`}>
               <div className="progress" style={{ width: "60%" }}></div>
             </div>
           </div>
@@ -128,7 +129,7 @@ function Skills() {
           >
             {" "}
             <p style={{ marginRight: "20px" }}>Git :</p>
-            <div className="progress-bar">
+            <div className={`progress-bar ${darkMode ? "dark" : ""}`}>
               <div className="progress" style={{ width: "70%" }}></div>
             </div>
           </div>
@@ -140,7 +141,7 @@ function Skills() {
           >
             {" "}
             <p style={{ marginRight: "20px" }}>GitHub :</p>
-            <div className="progress-bar">
+            <div className={`progress-bar ${darkMode ? "dark" : ""}`}>
               <div className="progress" style={{ width: "80%" }}></div>
             </div>
           </div>
@@ -152,7 +153,7 @@ function Skills() {
           >
             {" "}
             <p style={{ marginRight: "20px" }}>Linux :</p>
-            <div className="progress-bar">
+            <div className={`progress-bar ${darkMode ? "dark" : ""}`}>
               <div className="progress" style={{ width: "70%" }}></div>
             </div>
           </div>
@@ -164,7 +165,7 @@ function Skills() {
           >
             {" "}
             <p style={{ marginRight: "20px" }}>PHP :</p>
-            <div className="progress-bar">
+            <div className={`progress-bar ${darkMode ? "dark" : ""}`}>
               <div className="progress" style={{ width: "50%" }}></div>
             </div>
           </div>
@@ -176,7 +177,7 @@ function Skills() {
           >
             {" "}
             <p style={{ marginRight: "20px" }}>AfterEffect :</p>
-            <div className="progress-bar">
+            <div className={`progress-bar ${darkMode ? "dark" : ""}`}>
               <div className="progress" style={{ width: "70%" }}></div>
             </div>
           </div>
