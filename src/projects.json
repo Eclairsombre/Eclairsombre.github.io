@@ -12,7 +12,7 @@
         },
         {
             "name": "Connect4IA",
-            "img": "/connect4ia.png",
+            "img": "/robot.png",
             "description": " Connect4IA est un jeu de puissance 4 avec une IA MinMax, AlphaBeta et MTCS avec une interface graphique en python et une implémentation sur un bras robotique NED.",
             "language_used": ["Python"],
             "statut" : "En cours de développement",
@@ -35,11 +35,22 @@
         {
             "name": "FlashCardApp",
             "img": "/flashcard.png",
-            "description": " FlashCardApp est une application web qui permet de créer des flashcards pour apprendre des mots de vocabulaire. Ce projet a pour but d'apprendre les basesde Java. ",
+            "description": " FlashCardApp est une application web qui permet de créer des flashcards pour apprendre des mots de vocabulaire. Ce projet a pour but d'apprendre les bases de Java. ",
             "language_used": ["Java"],
             "statut" : "En cours de développement",
             "link":{
                 "github": "https://github.com/Eclairsombre/FlashCardApp",
+                "website": ""
+            }
+        },
+        {
+            "name": "JavaChess",
+            "img": "/javachess.png",
+            "description": " JavaChess est une simple application d'échecs en Java. Ce projet a pour but d'apprendre les bases de Java. ",
+            "language_used": ["Java"],
+            "statut" : "En cours de développement",
+            "link":{
+                "github": "https://github.com/Eclairsombre/JavaChess",
                 "website": ""
             }
         },
