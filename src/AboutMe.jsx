@@ -6,13 +6,13 @@ function AboutMe({ darkMode }) {
     <div className={`AboutMeBox ${darkMode ? "dark" : ""}`}>
       <h1 className="AboutMeTitle">About Me</h1>
       <p className="AboutMeText">
-        Je suis Alexandre THOUNY, un étudiant de 19 ans actuellement en prépa
-        intégrée à Polytech Lyon.
+        I am Alexandre THOUNY, a 20-year-old student currently in my 3rd year at
+        Polytech Lyon engineering school and an apprentice at Coexya as a
+        Software Developer.
         <br></br>
-        Ma passion pour l'informatique me pousse a découvrir de nouveau domaine
-        et à me perfectionner dans les domaines que je connais déjà.
-        <br></br>
-        Je suis actuellement a la recherche d'un alternance de 3 ans.
+        My passion for computer science drives me to explore new fields and to
+        improve in the areas I am already familiar with.
+        <br></br>I am currently looking for a 1-3 month internship.
       </p>
       <br></br>
       <br></br>

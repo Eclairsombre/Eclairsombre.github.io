@@ -9,14 +9,14 @@ function Footer() {
 
   return (
     <footer id="Skills">
-      <button class="Btn" onClick={copyToClipboard}>
+      <button className="Btn" onClick={copyToClipboard}>
         <img
           src="./discord.svg"
           alt="Discord logo"
-          class="svgIcon"
+          className="svgIcon"
           height="30px"
         />
-        <span class="texte">Discord : eclairsombre</span>
+        <span className="texte">Discord : eclairsombre</span>
       </button>
       <button
         className="Btn"
@@ -25,17 +25,17 @@ function Footer() {
         <img
           src="./github.svg"
           alt="Github logo"
-          class="svgIcon"
+          className="svgIcon"
           height="30px"
         />
-        <span class="texte">Github</span>
+        <span className="texte">Github</span>
       </button>
       <button
-        class="Btn"
+        className="Btn"
         onClick={() => window.open("mailto:alexandre.thny@gmail.com", "_blank")}
       >
-        <img src="./mail.svg" alt="mail" class="svgIcon" height="30px" />
-        <span class="texte">Mail</span>
+        <img src="./mail.svg" alt="mail" className="svgIcon" height="30px" />
+        <span className="texte">Email</span>
       </button>
       <button
         className="Btn"
@@ -49,10 +49,22 @@ function Footer() {
         <img
           src="./linkedin.svg"
           alt="linkedin"
-          class="svgIcon"
+          className="svgIcon"
           height="30px"
         />
-        <span class="texte">Linkedin</span>
+        <span className="texte">Linkedin</span>
+      </button>
+      <button
+        className="Btn"
+        onClick={() => window.open("./Alexandre_THOUNY_resume.pdf", "_blank")}
+      >
+        <img
+          src="./file-regular.svg"
+          alt="cv"
+          className="svgIcon"
+          height="30px"
+        />
+        <span className="texte">Resume</span>
       </button>
     </footer>
   );

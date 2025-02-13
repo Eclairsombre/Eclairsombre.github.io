@@ -1,0 +1,23 @@
+{
+    "skills": [
+      { "name": "C++", "level": "90%" },
+        { "name": "C", "level": "70%" },
+        { "name": "C#", "level": "80%" },
+      { "name": "HTML", "level": "70%" },
+      { "name": "CSS", "level": "60%" },
+      { "name": "React", "level": "70%" },
+      {"name": "Angular" , "level": "70%"},
+      { "name": "JavaScript", "level": "70%" },
+      { "name": "Python", "level": "80%" },
+      { "name": "Java", "level": "70%" },
+      { "name": "SQL", "level": "80%" },
+      { "name": "Git", "level": "70%" },
+      { "name": "GitHub", "level": "80%" },
+      { "name": "Linux", "level": "70%" },
+      { "name": "PHP", "level": "50%" },
+      { "name": "IIS", "level": "60%" },
+      { "name": "Docker", "level": "60%" },
+      { "name": "Linux", "level": "70%" },
+      { "name": "Sinequa", "level": "80%" }
+    ]
+  }
