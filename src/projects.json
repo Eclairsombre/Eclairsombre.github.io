@@ -1,5 +1,16 @@
 [
-   
+
+    {
+        "name": "PolyPresence",
+        "img": "./polypresence.png",
+        "description": "PolyPresence is a Website currently used by Polytech Lyon to centralize and facilitate the signing of attendance sheets for apprenticeship students.",
+        "language_used": ["Vue.js", "CSS", "C#"],
+        "statut": "Development completed",
+        "link": {
+            "github": "https://github.com/Eclairsombre/PolyPresence",
+            "website": "https://polypresence.onyx.ovh/"
+        }
+    },
     {
         "name":"DungeonCrawler",
         "img":"./dungeonCrawler.png",

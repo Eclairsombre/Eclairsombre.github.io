@@ -3,10 +3,59 @@
     src: url('./font/league-spartan.bold.ttf') format('truetype');
 }
   .Portfolio{
-      font-family: 'Spartan', sans-serif;
-  }
-
+      font-family: 'Arial', sans-serif;
+      width: 100%;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      transition: background-color 0.3s ease;
   
+      &.dark {
+        background-color: #121212;
+        color: #f1f1f1;
+      }
+  
+      main {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+@media (max-width: 768px) {
+  .Portfolio {
+    overflow-x: hidden;
+  }
+}
+
+/* Animation focus */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.focus-animation:focus {
+  animation: pulse 0.5s ease-in-out;
+}
+
+/* Amélioration de l'accessibilité */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
 
   body.dark-mode {
     background-color: #000;

@@ -2,42 +2,69 @@
   font-size: 1.5em;
   text-align: center;
   margin: 0;
-  padding: 5px;
+  padding: 15px;
   font-weight: 300;
   line-height: 1.5;
   letter-spacing: 0.5px;
-
-
- 
+  
+  @media (max-width: 768px) {
+    font-size: 1.2em;
+    padding: 10px;
+  }
+  
+  @media (max-width: 480px) {
+    font-size: 1.1em;
+    padding: 10px 5px;
+  }
 }
 
 .AboutMeTitle {
   font-size: 2em;
   text-align: center;
-  margin: 0;
+  margin: 0 0 20px;
   padding: 0;
   font-weight: 700;
   line-height: 1.5;
   letter-spacing: 0.5px;
   text-decoration: underline 3px;
+  
+  @media (max-width: 768px) {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+  }
 }
 
 .AboutMeBox{
   display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    width: 80%;
-    height: 100%;
-    background-color: #f5f5f5;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px 0px #000000;
-    margin-left: auto; 
-    margin-right: auto; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 80%;
+  height: 100%;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #000000;
+  margin-left: auto; 
+  margin-right: auto;
+  padding: 20px;
+  
+  @media (max-width: 1200px) {
+    width: 90%;
+  }
+  
+  @media (max-width: 768px) {
+    width: 95%;
+    margin-top: 10%;
+    padding: 15px;
+  }
 }
 
 .dark{
   background-color: rgba(0, 0, 0, 0.75);
+  
+  .AboutMeTitle, .AboutMeText {
+    color: #fff;
+  }
 }

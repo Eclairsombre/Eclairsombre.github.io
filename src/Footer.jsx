@@ -48,7 +48,7 @@ function Footer() {
       >
         <img
           src="./linkedin.svg"
-          alt="linkedin"
+          alt="Linkedin logo"
           className="svgIcon"
           height="30px"
         />
@@ -60,11 +60,11 @@ function Footer() {
       >
         <img
           src="./file-regular.svg"
-          alt="cv"
+          alt="File logo"
           className="svgIcon"
           height="30px"
         />
-        <span className="texte">Resume</span>
+        <span className="texte">CV</span>
       </button>
     </footer>
   );

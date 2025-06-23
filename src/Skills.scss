@@ -11,26 +11,51 @@
     border-radius: 10px;
     box-shadow: 0px 0px 10px 0px #000000;
     margin-left: auto; 
-    margin-right: auto; 
+    margin-right: auto;
+    padding: 20px 15px;
+    
+    @media (max-width: 1200px) {
+        width: 90%;
+    }
+    
+    @media (max-width: 768px) {
+        width: 95%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
 }
 
 .SkillsBox > h1{
     font-size: 2em;
     color: #000;
     text-align: center;
-    margin: 0;
+    margin: 0 0 20px;
     padding: 0;
     font-weight: 700;
     line-height: 1.5;
     letter-spacing: 0.5px;
     text-decoration: underline 3px;
+    
+    @media (max-width: 768px) {
+        font-size: 1.5em;
+    }
 }
+
 .progress-bar {
     width: 300px;
     height: 20px;
     background-color: #f3f3f3;
     border-radius: 10px;
     box-shadow: 0px 0px 10px 0px #000000;
+    
+    @media (max-width: 768px) {
+        width: 220px;
+        height: 15px;
+    }
+    
+    @media (max-width: 480px) {
+        width: 180px;
+    }
 }
 
 .progress-bar > .progress {
@@ -39,14 +64,12 @@
     border-radius: 10px;
     width: 50%;    
     animation: progress 2s ease-out forwards;
-
 }
 
 @keyframes progress {
     0% {
         width: 0%;
     }
-   
 }
 
 
@@ -55,7 +78,14 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin: 10px;  
+    margin: 10px;
+    width: 100%;
+    max-width: 500px;
+    
+    @media (max-width: 768px) {
+        flex-direction: column;
+        gap: 10px;
+    }
 }
 
 .skill > p {
@@ -66,44 +96,52 @@
     font-weight: 300;
     line-height: 1.5;
     letter-spacing: 0.5px;
+    min-width: 100px;
+    
+    @media (max-width: 768px) {
+        font-size: 1.2em;
+        padding: 5px;
+    }
 }
 
 .SkillsBox > p {
-font-size: 1.5em;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  font-weight: 300;
-  line-height: 1.5;
-  letter-spacing: 0.5px;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 10px 0;
+    padding: 0;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
     
+    @media (max-width: 768px) {
+        font-size: 1.2em;
+    }
 }
 
 .animated-element {
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
-  }
+}
   
-  .animated-element.animate {
+.animated-element.animate {
     opacity: 1;
-  }
+}
 
-  .dark{
+.dark{
     background-color: rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 10px 0px #ffffff;
-  }
+    
+    h1, p {
+        color: #fff;
+    }
+}
 
-  .progress-bar.dark {
+.progress-bar.dark {
     background-color: #000;
     box-shadow: 0px 0px 10px 0px #fff;
   
     > .progress {
-      background-color: #fff;
-      height: 100%;
-    border-radius: 10px;
-    width: 50%;    
-    animation: progress 2s ease-out forwards;
+        background-color: #fff;
     }
-  }
+}
 
-  

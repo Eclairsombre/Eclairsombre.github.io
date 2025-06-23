@@ -4,13 +4,34 @@
   height: 400px;
   margin: 20px;
   cursor: pointer;
- 
-  perspective: 1000px; 
+  perspective: 1000px;
+  
+  @media (max-width: 1200px) {
+    width: 350px;
+    height: 350px;
+    margin: 15px;
+  }
+  
+  @media (max-width: 768px) {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+  }
+  
+  @media (max-width: 480px) {
+    width: 280px;
+    height: 280px;
+    margin: 10px 5px;
+  }
 }
 
 .flip-card:hover{
   transition: all 0.3s ease-in-out;
   transform: scale(1.05);
+  
+  @media (max-width: 768px) {
+    transform: scale(1.03);
+  }
 }
 
 .flip-card-inner {
@@ -22,7 +43,7 @@
   transform-style: preserve-3d;
 }
 
- .flip-card-inner {
+.flip-card-inner {
   transform: rotateY(0deg);
 }
 
@@ -46,22 +67,50 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-
 }
 
 .flip-card-back {
   transform: rotateY(180deg);
   border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
   transition: all 0.3s ease-in-out;
-
+  background-color: #fff;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+    text-decoration: underline;
+    
+    @media (max-width: 768px) {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+  }
+  
+  p {
+    font-size: 16px;
+    margin: 8px 0;
+    text-align: center;
+    line-height: 1.5;
+    
+    @media (max-width: 768px) {
+      font-size: 14px;
+      margin: 6px 0;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    padding: 15px;
+  }
 }
-
-
-
 
 .flip-card.flipped .flip-card-inner {
   transform: rotateY(180deg);
@@ -72,11 +121,15 @@
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
-
   margin-right: 10px;
   font-size: 18px;
   color: #f1f1f1;
   text-align: left;
+  
+  @media (max-width: 768px) {
+    font-size: 16px;
+    padding: 8px;
+  }
 }
 
 .LanguageUsed {
@@ -89,7 +142,11 @@
   width: fit-content;
   height: fit-content;
   margin-right: 5px;
-
+  
+  @media (max-width: 768px) {
+    font-size: 13px;
+    padding: 6px;
+  }
 }
 
 .TitleBox {
@@ -97,7 +154,7 @@
   opacity: 0;
   width: 100%;
   border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;  
+  border-bottom-right-radius: 10px;
   transition: opacity 0.3s ease-in-out;
 
   display: flex;
@@ -108,7 +165,6 @@
 }
 
 .LanguageBox {
-
   display: flex;
   flex-direction: row;
   justify-content: right;
@@ -116,6 +172,42 @@
   width: 100%;
 }
 
+.LinkBox {
+  margin-top: 15px;
+  width: 100%;
+  
+  a {
+    text-decoration: none;
+    color: #0066cc;
+    font-weight: 500;
+    transition: color 0.2s ease;
+    
+    &:hover {
+      color: #004080;
+      text-decoration: underline;
+    }
+  }
+  
+  a.darkLink {
+    color: #66b3ff;
+    
+    &:hover {
+      color: #99ccff;
+    }
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
+  @media (max-width: 768px) {
+    margin-top: 10px;
+    
+    a {
+      font-size: 13px;
+    }
+  }
+}
 
 .animated-element {
   opacity: 0;
@@ -126,24 +218,20 @@
   opacity: 1;
 }
 
-.LinkBox a{
-  text-decoration: none;
-  color:#000;
-}
-
-.LinkBox a.darkLink {
-  color: #fff;
-}
-
 .flip-card-back.dark {
   background-color: #333;
   color: #f1f1f1;
-  box-shadow: none;
-
-}
-
-.flip-card-back.dark >a{
-  text-decoration: none;
-  color: #fff;
-  box-shadow: none;
+  box-shadow: 0 0 10px rgba(255,255,255,0.1);
+  
+  h2 {
+    color: #fff;
+  }
+  
+  a {
+    color: #66b3ff;
+    
+    &:hover {
+      color: #99ccff;
+    }
+  }
 }

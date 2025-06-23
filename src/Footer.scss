@@ -12,10 +12,20 @@
     background-color: rgb(31, 31, 31);
     overflow: hidden;
     margin: 5px;
+  
+    @media (max-width: 480px) {
+      width: 40px;
+      height: 40px;
+      margin: 3px;
+    }
   }
   
   .svgIcon {
     transition-duration: .3s;
+  
+    @media (max-width: 480px) {
+      height: 25px !important;
+    }
   }
   
   .svgIcon path {
@@ -30,12 +40,21 @@
     font-weight: 600;
     opacity: 0;
     transition-duration: .4s;
+  
+    @media (max-width: 480px) {
+      font-size: 12px;
+      width: 100px;
+    }
   }
   
   .Btn:hover {
     width: 110px;
     transition-duration: .4s;
     border-radius: 30px;
+  
+    @media (max-width: 480px) {
+      width: 100px;
+    }
   }
   
   .Btn:hover .texte {
@@ -48,7 +67,6 @@
     transition-duration: .3s;
   }
 
-  
 footer {
   text-align: center;
   font-size: 12px;
