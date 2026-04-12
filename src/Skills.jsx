@@ -1,41 +1,30 @@
 import React from "react";
-import { useInView } from "react-intersection-observer";
 import data from "./skills.json";
 
 import "./Skills.scss";
 
-function Skills({ darkMode }) {
-  const refs = data.skills.map(() =>
-    useInView({ triggerOnce: true, threshold: 0.5 })
-  );
-
+function Skills() {
   return (
-    <div className={`SkillsBox ${darkMode ? "dark" : ""}`}>
-      <h1>Skills</h1>
-      <p style={{ padding: "5px" }}>
-        Here are some of the skills I have learned and used in my projects:
-      </p>
-      <ul>
+    <section id="skills" className="SkillsBox">
+      <div className="SkillsHeading">
+        <p className="SkillsKicker">Competences</p>
+        <h2>Technologies et outils que j'utilise regulierement</h2>
+      </div>
+
+      <ul className="SkillsList">
         {data.skills.map((element, index) => (
-          <li key={index}>
-            <div
-              ref={refs[index].ref}
-              className={`skill animated-element ${
-                refs[index].inView ? "animate" : ""
-              }`}
-            >
-              <p style={{ marginRight: "20px" }}>{element.name}</p>
-              <div className={`progress-bar ${darkMode ? "dark" : ""}`}>
-                <div
-                  className="progress"
-                  style={{ width: element.level }}
-                ></div>
+          <li key={`${element.name}-${index}`}>
+            <div className="skill" style={{ animationDelay: `${index * 70}ms` }}>
+              <div className="skill__meta">
+                <p>{element.name}</p>
+                <span>{element.level}</span>
               </div>
+              <progress className="progress-bar" value={Number.parseInt(element.level, 10)} max="100" aria-label={`Niveau ${element.name}`}></progress>
             </div>
           </li>
         ))}
       </ul>
-    </div>
+    </section>
   );
 }
 

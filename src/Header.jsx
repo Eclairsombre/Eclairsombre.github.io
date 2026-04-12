@@ -1,9 +1,15 @@
-import React from "react";
 import { useEffect, useState } from "react";
+import PropTypes from "prop-types";
 import "./Header.scss";
 
 const Header = ({ setDarkMode, darkMode }) => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const menuItems = [
+    { href: "#about", label: "About" },
+    { href: "#skills", label: "Skills" },
+    { href: "#projects", label: "Projects" },
+    { href: "#contact", label: "Contact" },
+  ];
 
   useEffect(() => {
     if (darkMode) {
@@ -22,63 +28,55 @@ const Header = ({ setDarkMode, darkMode }) => {
   };
 
   return (
-    <div>
-      <div className={`Header ${darkMode ? "dark" : ""}`}>
-        <div className="Header__logoAndTitle">
-          <img src="./portfolio.svg" alt="logo" className="logo" />
-          <div className="HeaderTitle">Alexandre THOUNY</div>
-        </div>
-        <div className="Header__darkMode">
-          <button onClick={() => setDarkMode(!darkMode)} className="changeMode">
-            <img
-              src={darkMode ? "./moon.svg" : "./sun.svg"}
-              alt="moon"
-              className="moon"
-            />
-          </button>
-        </div>
-        <div className={`Header__menu ${menuOpen ? "show" : ""}`}>
+    <header className={`Header ${darkMode ? "dark" : ""}`}>
+      <a href="#top" className="Header__logoAndTitle" onClick={closeMenu}>
+        <img src="./portfolio.svg" alt="Logo du portfolio" className="logo" />
+        <div className="HeaderTitle">Alexandre THOUNY</div>
+      </a>
+
+      <nav className={`Header__menu ${menuOpen ? "show" : ""}`}>
+        {menuItems.map((item) => (
           <a
-            href="#About"
-            className="Header__menu__item Header__menu__item--active"
+            key={item.href}
+            href={item.href}
+            className="Header__menu__item"
             onClick={closeMenu}
           >
-            About Me
+            {item.label}
           </a>
-          <a
-            href="#Skills"
-            className="Header__menu__item Header__menu__item--active"
-            onClick={closeMenu}
-          >
-            Skills
-          </a>
-          <a
-            href="#Projects"
-            className="Header__menu__item Header__menu__item--active"
-            onClick={closeMenu}
-          >
-            Projects
-          </a>
-        </div>
-        <div
+        ))}
+      </nav>
+
+      <div className="Header__actions">
+        <button
+          onClick={() => setDarkMode(!darkMode)}
+          className="changeMode"
+          aria-label={darkMode ? "Activer le theme clair" : "Activer le theme sombre"}
+        >
+          <img
+            src={darkMode ? "./sun.svg" : "./moon.svg"}
+            alt="Theme icon"
+            className="moon"
+          />
+        </button>
+
+        <button
           className={`hamburger-menu ${menuOpen ? "active" : ""}`}
           onClick={toggleMenu}
+          aria-label="Afficher ou masquer le menu"
         >
           <span></span>
           <span></span>
           <span></span>
-        </div>
+        </button>
       </div>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-    </div>
+    </header>
   );
+};
+
+Header.propTypes = {
+  setDarkMode: PropTypes.func.isRequired,
+  darkMode: PropTypes.bool.isRequired,
 };
 
 export default Header;

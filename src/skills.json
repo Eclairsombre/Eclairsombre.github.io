@@ -17,7 +17,6 @@
       { "name": "PHP", "level": "50%" },
       { "name": "IIS", "level": "60%" },
       { "name": "Docker", "level": "60%" },
-      { "name": "Linux", "level": "70%" },
       { "name": "Sinequa", "level": "80%" }
     ]
   }

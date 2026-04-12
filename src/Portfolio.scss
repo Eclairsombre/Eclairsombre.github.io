@@ -2,25 +2,47 @@
     font-family: 'Spartan';
     src: url('./font/league-spartan.bold.ttf') format('truetype');
 }
-  .Portfolio{
-      font-family: 'Arial', sans-serif;
-      width: 100%;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      transition: background-color 0.3s ease;
-  
-      &.dark {
-        background-color: #121212;
-        color: #f1f1f1;
-      }
-  
-      main {
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-      }
-    }
+
+.Portfolio {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  transition: background-color 0.35s ease, color 0.35s ease;
+  background:
+    radial-gradient(circle at 10% 20%, rgba(242, 95, 76, 0.18), transparent 40%),
+    radial-gradient(circle at 90% 10%, rgba(82, 121, 255, 0.16), transparent 35%),
+    linear-gradient(160deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+  color: var(--text-primary);
+
+  --bg-primary: #f8f1e8;
+  --bg-secondary: #f1f7ff;
+  --surface: rgba(255, 255, 255, 0.78);
+  --surface-strong: #ffffff;
+  --surface-border: rgba(19, 25, 38, 0.08);
+  --text-primary: #151b2d;
+  --text-secondary: #4b556c;
+  --accent: #f25f4c;
+  --accent-alt: #3655d6;
+  --chip: #ebf0ff;
+  --shadow: 0 20px 45px rgba(21, 27, 45, 0.12);
+  --icon-filter: invert(1);
+
+  &.theme-dark {
+    --bg-primary: #0f1424;
+    --bg-secondary: #131e35;
+    --surface: rgba(16, 24, 38, 0.82);
+    --surface-strong: #111a2e;
+    --surface-border: rgba(255, 255, 255, 0.08);
+    --text-primary: #eef2ff;
+    --text-secondary: #b5bfd9;
+    --accent: #ff896e;
+    --accent-alt: #86a6ff;
+    --chip: #1d2943;
+    --shadow: 0 24px 48px rgba(0, 0, 0, 0.45);
+    --icon-filter: none;
+  }
+}
 
 @media (max-width: 768px) {
   .Portfolio {
@@ -56,8 +78,3 @@
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
-
-  body.dark-mode {
-    background-color: #000;
-    color: #fff;
-  }

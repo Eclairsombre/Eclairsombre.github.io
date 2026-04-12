@@ -12,16 +12,15 @@ function Portfolio() {
   const [darkMode, setDarkMode] = useState(false);
 
   return (
-    <div className={`Portfolio ${darkMode ? "dark" : ""}`}>
+    <div className={`Portfolio ${darkMode ? "theme-dark" : "theme-light"}`}>
       <Header setDarkMode={setDarkMode} darkMode={darkMode} />
-      <main>
-        <TextAnimation darkMode={darkMode} />
-        <AboutMe darkMode={darkMode} />      
-        <Footer />
-        <Skills darkMode={darkMode} />
-        <div id="Projects"></div>
-        <Projects darkMode={darkMode} />
+      <main className="portfolio-main">
+        <TextAnimation />
+        <AboutMe />
+        <Skills />
+        <Projects />
       </main>
+      <Footer />
       <ScrollToTop />
     </div>
   );

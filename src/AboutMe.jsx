@@ -1,22 +1,35 @@
-import React from "react";
 import "./AboutMe.scss";
 
-function AboutMe({ darkMode }) {
+function AboutMe() {
   return (
-    <div className={`AboutMeBox ${darkMode ? "dark" : ""}`}>
-      <h1 className="AboutMeTitle">About Me</h1>
+    <section id="about" className="AboutMeBox">
+      <div className="AboutMeHeading">
+        <p className="AboutMeKicker">A propos</p>
+        <h2 className="AboutMeTitle">Profil, parcours et objectifs</h2>
+      </div>
+
       <p className="AboutMeText">
-        I am Alexandre THOUNY, a 20-year-old student currently in my 3rd year at
-        Polytech Lyon engineering school and an apprentice at Coexya as a
-        Software Developer.
-        <br></br>
-        My passion for computer science drives me to explore new fields and to
-        improve in the areas I am already familiar with.
-        <br></br>I am currently looking for a 1-3 month internship.
+        Je suis Alexandre THOUNY, etudiant en 3e annee a Polytech Lyon et alternant chez Coexya en developpement logiciel. J'aime construire des solutions fiables, documentees et maintenables.
       </p>
-      <br></br>
-      <br></br>
-    </div>
+      <p className="AboutMeText">
+        Mon objectif: livrer des applications utiles avec une vraie attention a l'experience utilisateur, de l'architecture au dernier pixel.
+      </p>
+
+      <div className="AboutMeHighlights">
+        <article className="HighlightCard">
+          <h3>Formation</h3>
+          <p>Cycle ingenieur informatique - Polytech Lyon</p>
+        </article>
+        <article className="HighlightCard">
+          <h3>Alternance</h3>
+          <p>Software Developer - Coexya</p>
+        </article>
+        <article className="HighlightCard">
+          <h3>Disponibilite</h3>
+          <p>Ouvert a un stage de 1 a 3 mois</p>
+        </article>
+      </div>
+    </section>
   );
 }
 

@@ -1,120 +1,97 @@
-import React, { useState } from "react";
+import React from "react";
+import PropTypes from "prop-types";
 import "./Card.scss";
-import { useInView } from "react-intersection-observer";
 
-function Card({ project, darkMode }) {
-  const [isFlipped, setFlipped] = useState(false);
-  const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.5 });
-
-  const handleClick = () => {
-    setFlipped(!isFlipped);
-  };
-
-  const handleLinkClick = (e) => {
-    e.stopPropagation();
-  };
-
-  const getBackgroundColor = (language) => {
+function Card({ project }) {
+  const getColor = (language) => {
     switch (language) {
       case "JavaScript":
-        return "yellow";
+        return "#f7df1e";
       case "Python":
-        return "blue";
+        return "#4b8bbe";
       case "Java":
-        return "red";
+        return "#ea2d2e";
       case "React":
-        return "lightblue";
+        return "#61dafb";
       case "HTML":
-        return "orange";
+        return "#f16529";
       case "CSS":
-        return "darkblue";
       case "SCSS":
-        return "darkblue";
+        return "#2965f1";
       case "C++":
-        return "grey";
+        return "#5f8dd3";
       default:
-        return "green";
+        return "#0f172a";
     }
   };
 
-  const getTextColor = (language) => {
-    switch (language) {
-      case "JavaScript":
-      case "HTML":
-      case "React":
-        return "black";
-      default:
-        return "white";
-    }
-  };
+  const isInProgress = project.statut.toLowerCase().includes("in");
+
   return (
-    <div
-      ref={ref}
-      className={`flip-card ${darkMode ? "dark" : ""} animated-element ${
-        inView ? "animate" : ""
-      } ${isFlipped ? "flipped" : ""}`}
-      onClick={handleClick}
-    >
-      <div className="flip-card-inner">
-        <div
-          className="flip-card-front"
-          style={{ backgroundImage: `url(${project.img})` }}
-        >
-          <p></p>
-          <div className="TitleBox">
-            <h2 className="ProjectTitle">{project.name}</h2>
-            <div className="LanguageBox">
-              {project.language_used.map((element) => (
-                <div
-                  className="LanguageUsed"
-                  style={{
-                    backgroundColor: getBackgroundColor(element),
-                    color: getTextColor(element),
-                  }}
-                >
-                  {element}
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-        <div className="flip-card-back">
-          <h2>{project.name}</h2>
-          <p>{project.description}</p>
-          <p>Statut : {project.statut}</p>
-          <div className="LinkBox">
-            <p>
-              Github :{" "}
-              <a
-                className={darkMode ? "darkLink" : ""}
-                href={project.link.github}
-                target="_blank"
-                rel="noreferrer"
-                onClick={handleLinkClick}
-              >
-                {project.link.github}
-              </a>
-            </p>
-            {project.link.website && (
-              <div>
-                <p>
-                  Website :{" "}
-                  <a
-                    href={project.link.website}
-                    target="_blank"
-                    rel="noreferrer"
-                    onClick={handleLinkClick}
-                  >
-                    {project.link.website}
-                  </a>
-                </p>
-              </div>
-            )}
-          </div>
+    <article className="project-card">
+      <div className="project-card__media">
+        <img
+          src={project.img}
+          alt={`Apercu du projet ${project.name}`}
+          className="project-card__image"
+          loading="lazy"
+          decoding="async"
+        />
+        <div className="project-card__overlay">
+          <h3>{project.name}</h3>
+          <span className={`project-status ${isInProgress ? "in-progress" : "done"}`}>
+            {project.statut}
+          </span>
         </div>
       </div>
-    </div>
+
+      <div className="project-card__body">
+        <p>{project.description}</p>
+
+        <div className="LanguageBox">
+          {project.language_used.map((element) => (
+            <span
+              key={`${project.name}-${element}`}
+              className="LanguageUsed"
+              style={{
+                backgroundColor: getColor(element),
+                color: getColor(element) === "#f7df1e" || getColor(element) === "#61dafb" ? "#111" : "#fff",
+              }}
+            >
+              {element}
+            </span>
+          ))}
+        </div>
+
+        <div className="LinkBox">
+          {project.link.github && (
+            <a href={project.link.github} target="_blank" rel="noreferrer" className="card-link card-link--primary">
+              Voir le code
+            </a>
+          )}
+          {project.link.website && (
+            <a href={project.link.website} target="_blank" rel="noreferrer" className="card-link card-link--ghost">
+              Voir le site
+            </a>
+          )}
+        </div>
+      </div>
+    </article>
   );
 }
+
+Card.propTypes = {
+  project: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    img: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    language_used: PropTypes.arrayOf(PropTypes.string).isRequired,
+    statut: PropTypes.string.isRequired,
+    link: PropTypes.shape({
+      github: PropTypes.string.isRequired,
+      website: PropTypes.string,
+    }).isRequired,
+  }).isRequired,
+};
 
 export default Card;

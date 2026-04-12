@@ -30,7 +30,7 @@ const ScrollToTop = () => {
   return (
     <>
       {isVisible && (
-        <div onClick={scrollToTop} className="scroll-to-top visible">
+        <button onClick={scrollToTop} className="scroll-to-top visible" aria-label="Retour en haut">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -44,7 +44,7 @@ const ScrollToTop = () => {
           >
             <path d="M18 15l-6-6-6 6" />
           </svg>
-        </div>
+        </button>
       )}
     </>
   );

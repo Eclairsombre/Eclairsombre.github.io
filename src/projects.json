@@ -3,7 +3,7 @@
     {
         "name": "PolyPresence",
         "img": "./polypresence.png",
-        "description": "PolyPresence is a Website currently used by Polytech Lyon to centralize and facilitate the signing of attendance sheets for apprenticeship students.",
+        "description": "PolyPresence is a production web app used at Polytech Lyon to centralize apprenticeship attendance and simplify signature workflows for students and staff.",
         "language_used": ["Vue.js", "CSS", "C#"],
         "statut": "Development completed",
         "link": {
@@ -26,7 +26,7 @@
     {
         "name":"CineTour",
         "img": "./cinetour.png",
-        "description": "CineTour is a website that allows you to search for the locations where movies were filmed and see the points of interest around to prepare a trip.",
+        "description": "CineTour helps users discover movie shooting locations and nearby points of interest to build a thematic trip with an interactive map experience.",
         "language_used": ["React", "CSS", "Java"],
         "statut": "Development completed",
         "link": {
@@ -59,7 +59,7 @@
     },
     {
         "name": "8T",
-        "img": "/8t.png",
+        "img": "/8t.webp",
         "description": "8T is a board game that reinvents the traditional tic-tac-toe by introducing new rules, transforming the gaming experience with SDL2. This project was carried out as part of the UE LIFAPCD.",
         "language_used": ["C++"],
         "statut": "Development completed",
@@ -70,8 +70,8 @@
     },
     {
         "name": "Connect4IA",
-        "img": "/robot.png",
-        "description": "Connect4IA is a Connect 4 game with a MinMax, AlphaBeta, and MTCS AI with a graphical interface in Python and an implementation on a NED robotic arm.",
+        "img": "/connect4ia.png",
+        "description": "Connect4IA is a Connect 4 project combining MinMax, AlphaBeta and MCTS strategies, with a Python UI and a robotic arm integration for physical gameplay.",
         "language_used": ["Python"],
         "statut": "Development completed",
         "link": {
@@ -158,7 +158,7 @@
     },
     {
         "name": "GDMC-2023",
-        "img": "./gdmc.png",
+        "img": "./gdmc.webp",
         "description": "This is a competition for AI colony generation in Minecraft, where you can participate by writing an algorithm that creates an interesting city for a given Minecraft map.",
         "language_used": ["Python"],
         "statut": "Development completed",
@@ -169,7 +169,7 @@
     },
     {
         "name":"GDMC-2024",
-        "img":"./gdmc.png",
+        "img":"./gdmc.webp",
         "description":"This is a competition for AI colony generation in Minecraft, where you can participate by writing an algorithm that creates an interesting city for a given Minecraft map.",
         "language_used":["Python"],
         "statut":"Development completed",
@@ -181,12 +181,12 @@
     },
     {
         "name": "GDMC-2025",
-        "img": "./gdmc.png",
-        "description": "This is a competition for AI colony generation in Minecraft, where you can participate by writing an algorithm that creates an interesting city for a given Minecraft map.",
+        "img": "./gdmc.webp",
+        "description": "GDMC-2025 is our current AI city-generation entry for Minecraft, focused on better urban planning heuristics and generation quality.",
         "language_used": ["Python"],
         "statut": "In development",
         "link": {
-            "github": "https://github.com/Temporary-Placeholder-for-a-Team-Name/GDMC-2025",
+            "github": "",
             "website": ""
         }
     },
@@ -215,12 +215,12 @@
     {
         "name": "LaNuitDeL'info 2023",
         "img": "./lndf2023.png",
-        "description": "La Nuit de l'Info is a national competition that brings together students, teachers, and companies to work together on the development of a web application. The Night takes place every year, from the first Thursday of December at sunset until sunrise the next morning. This year's theme was climate change.",
+        "description": "La Nuit de l'Info 2023: team project delivered in one night on climate change, with a complete web experience built under tight deadline constraints.",
         "language_used": ["React", "SCSS"],
         "statut": "Development completed",
         "link": {
             "github": "https://github.com/PolyCrusader/PolyCrusader",
-            "website": "http://89.168.46.26/"
+            "website": ""
         }
     },
     {
@@ -237,7 +237,7 @@
     {
         "name": "PortFolio",
         "img": "./portfolio.png",
-        "description": "My Portfolio created in React and SCSS.",
+        "description": "Personal portfolio built with React and SCSS to showcase projects, technical skills and contact channels in a clear and modern interface.",
         "language_used": ["React", "SCSS"],
         "statut": "Development completed",
         "link": {

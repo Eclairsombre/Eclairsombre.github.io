@@ -1,237 +1,118 @@
-.flip-card {
-  background-color: transparent;
-  width: 400px;
-  height: 400px;
-  margin: 20px;
-  cursor: pointer;
-  perspective: 1000px;
-  
-  @media (max-width: 1200px) {
-    width: 350px;
-    height: 350px;
-    margin: 15px;
-  }
-  
-  @media (max-width: 768px) {
-    width: 300px;
-    height: 300px;
-    margin: 10px;
-  }
-  
-  @media (max-width: 480px) {
-    width: 280px;
-    height: 280px;
-    margin: 10px 5px;
+.project-card {
+  border: 1px solid var(--surface-border);
+  border-radius: 18px;
+  overflow: hidden;
+  background: var(--surface-strong);
+  display: grid;
+  grid-template-rows: 180px 1fr;
+  min-height: 420px;
+  box-shadow: 0 16px 34px rgba(17, 26, 46, 0.14);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 22px 38px rgba(17, 26, 46, 0.2);
   }
 }
 
-.flip-card:hover{
-  transition: all 0.3s ease-in-out;
-  transform: scale(1.05);
-  
-  @media (max-width: 768px) {
-    transform: scale(1.03);
-  }
-}
-
-.flip-card-inner {
+.project-card__media {
   position: relative;
+  overflow: hidden;
+}
+
+.project-card__image {
   width: 100%;
   height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
+  object-fit: cover;
+  display: block;
 }
 
-.flip-card-inner {
-  transform: rotateY(0deg);
-}
-
-.flip-card-front, .flip-card-back {
+.project-card__overlay {
   position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
-  backface-visibility: hidden;
-  background-size: cover;
-  background-position: center;
-}
-
-.flip-card-front {
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
-  transition: all 0.3s ease-in-out;
- 
+  inset: 0;
+  padding: 0.95rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
-}
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7));
 
-.flip-card-back {
-  transform: rotateY(180deg);
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
-  transition: all 0.3s ease-in-out;
-  background-color: #fff;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  padding: 20px;
-  box-sizing: border-box;
-  overflow-y: auto;
-  
-  h2 {
-    font-size: 24px;
-    margin-bottom: 15px;
-    color: #333;
-    text-decoration: underline;
-    
-    @media (max-width: 768px) {
-      font-size: 20px;
-      margin-bottom: 10px;
-    }
-  }
-  
-  p {
-    font-size: 16px;
-    margin: 8px 0;
-    text-align: center;
-    line-height: 1.5;
-    
-    @media (max-width: 768px) {
-      font-size: 14px;
-      margin: 6px 0;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    padding: 15px;
+  h3 {
+    color: #fff;
+    font-size: 1.2rem;
   }
 }
 
-.flip-card.flipped .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.ProjectTitle {
-  margin: 0;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  margin-right: 10px;
-  font-size: 18px;
-  color: #f1f1f1;
-  text-align: left;
-  
-  @media (max-width: 768px) {
-    font-size: 16px;
-    padding: 8px;
-  }
-}
-
-.LanguageUsed {
-  margin: 0;
-  padding: 10px;
-  font-size: 15px;
-  text-align: center;
-  color: #f1f1f1;
-  border-radius: 22px;
+.project-status {
   width: fit-content;
-  height: fit-content;
-  margin-right: 5px;
-  
-  @media (max-width: 768px) {
-    font-size: 13px;
-    padding: 6px;
+  border-radius: 999px;
+  padding: 0.28rem 0.62rem;
+  font-weight: 700;
+  font-size: 0.74rem;
+
+  &.in-progress {
+    background: #ffeb99;
+    color: #704c00;
+  }
+
+  &.done {
+    background: #b8f5cb;
+    color: #0d5a2b;
   }
 }
 
-.TitleBox {
-  background-color: rgba(0, 0, 0, 0.75);
-  opacity: 0;
-  width: 100%;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  transition: opacity 0.3s ease-in-out;
+.project-card__body {
+  display: grid;
+  gap: 0.82rem;
+  padding: 1rem;
 
-  display: flex;
-}
-
-.flip-card-front:hover .TitleBox {
-  opacity: 1;
+  p {
+    color: var(--text-secondary);
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    min-height: 5.4rem;
+  }
 }
 
 .LanguageBox {
   display: flex;
-  flex-direction: row;
-  justify-content: right;
-  align-items: center;
-  width: 100%;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.LanguageUsed {
+  border-radius: 999px;
+  padding: 0.25rem 0.56rem;
+  font-size: 0.74rem;
+  font-weight: 700;
 }
 
 .LinkBox {
-  margin-top: 15px;
-  width: 100%;
-  
-  a {
-    text-decoration: none;
-    color: #0066cc;
-    font-weight: 500;
-    transition: color 0.2s ease;
-    
-    &:hover {
-      color: #004080;
-      text-decoration: underline;
-    }
-  }
-  
-  a.darkLink {
-    color: #66b3ff;
-    
-    &:hover {
-      color: #99ccff;
-    }
-  }
-  
-  p {
-    margin: 5px 0;
-  }
-  
-  @media (max-width: 768px) {
-    margin-top: 10px;
-    
-    a {
-      font-size: 13px;
-    }
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.card-link {
+  font-weight: 700;
+  font-size: 0.85rem;
+  padding: 0.48rem 0.78rem;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  transition: transform 0.2s ease;
+
+  &:hover {
+    transform: translateY(-1px);
   }
 }
 
-.animated-element {
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
+.card-link--primary {
+  background: linear-gradient(120deg, #9f2632, #7c2045);
+  color: #fff;
 }
 
-.animated-element.animate {
-  opacity: 1;
-}
-
-.flip-card-back.dark {
-  background-color: #333;
-  color: #f1f1f1;
-  box-shadow: 0 0 10px rgba(255,255,255,0.1);
-  
-  h2 {
-    color: #fff;
-  }
-  
-  a {
-    color: #66b3ff;
-    
-    &:hover {
-      color: #99ccff;
-    }
-  }
+.card-link--ghost {
+  border-color: var(--surface-border);
+  color: var(--text-primary);
 }
