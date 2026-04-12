@@ -9,10 +9,13 @@ function AboutMe() {
       </div>
 
       <p className="AboutMeText">
-        Je suis Alexandre THOUNY, etudiant en 3e annee a Polytech Lyon et alternant chez Coexya en developpement logiciel. J'aime construire des solutions fiables, documentees et maintenables.
+        Je suis Alexandre THOUNY, etudiant en 3e annee a Polytech Lyon et
+        alternant chez Coexya en developpement logiciel. J'aime construire des
+        solutions fiables, documentees et maintenables.
       </p>
       <p className="AboutMeText">
-        Mon objectif: livrer des applications utiles avec une vraie attention a l'experience utilisateur, de l'architecture au dernier pixel.
+        Mon objectif: livrer des applications utiles avec une vraie attention a
+        l'experience utilisateur, de l'architecture au dernier pixel.
       </p>
 
       <div className="AboutMeHighlights">

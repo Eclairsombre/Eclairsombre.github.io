@@ -51,7 +51,9 @@ const Header = ({ setDarkMode, darkMode }) => {
         <button
           onClick={() => setDarkMode(!darkMode)}
           className="changeMode"
-          aria-label={darkMode ? "Activer le theme clair" : "Activer le theme sombre"}
+          aria-label={
+            darkMode ? "Activer le theme clair" : "Activer le theme sombre"
+          }
         >
           <img
             src={darkMode ? "./sun.svg" : "./moon.svg"}

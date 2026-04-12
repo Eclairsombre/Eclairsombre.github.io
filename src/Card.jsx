@@ -39,7 +39,9 @@ function Card({ project }) {
         />
         <div className="project-card__overlay">
           <h3>{project.name}</h3>
-          <span className={`project-status ${isInProgress ? "in-progress" : "done"}`}>
+          <span
+            className={`project-status ${isInProgress ? "in-progress" : "done"}`}
+          >
             {project.statut}
           </span>
         </div>
@@ -55,7 +57,11 @@ function Card({ project }) {
               className="LanguageUsed"
               style={{
                 backgroundColor: getColor(element),
-                color: getColor(element) === "#f7df1e" || getColor(element) === "#61dafb" ? "#111" : "#fff",
+                color:
+                  getColor(element) === "#f7df1e" ||
+                  getColor(element) === "#61dafb"
+                    ? "#111"
+                    : "#fff",
               }}
             >
               {element}
@@ -65,12 +71,22 @@ function Card({ project }) {
 
         <div className="LinkBox">
           {project.link.github && (
-            <a href={project.link.github} target="_blank" rel="noreferrer" className="card-link card-link--primary">
+            <a
+              href={project.link.github}
+              target="_blank"
+              rel="noreferrer"
+              className="card-link card-link--primary"
+            >
               Voir le code
             </a>
           )}
           {project.link.website && (
-            <a href={project.link.website} target="_blank" rel="noreferrer" className="card-link card-link--ghost">
+            <a
+              href={project.link.website}
+              target="_blank"
+              rel="noreferrer"
+              className="card-link card-link--ghost"
+            >
               Voir le site
             </a>
           )}

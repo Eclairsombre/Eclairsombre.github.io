@@ -22,7 +22,10 @@ const TextAnimation = () => {
           repeat={Infinity}
         />
         <p className="Hero__subtitle">
-          Je suis Alexandre THOUNY, etudiant ingenieur a Polytech Lyon et alternant chez Coexya. Je conçois des applications web, des outils et des experiences interactives qui allient logique, design et performance.
+          Je suis Alexandre THOUNY, etudiant ingenieur a Polytech Lyon et
+          alternant chez Coexya. Je conçois des applications web, des outils et
+          des experiences interactives qui allient logique, design et
+          performance.
         </p>
         <div className="Hero__actions">
           <a href="#projects" className="Hero__button Hero__button--primary">

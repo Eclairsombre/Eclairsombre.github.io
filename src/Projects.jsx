@@ -10,7 +10,8 @@ function Projects() {
         <p className="ProjectsKicker">Portfolio</p>
         <h2>Projets realises et en cours</h2>
         <p className="ProjectsIntro">
-          Une selection de projets en web, logiciel et IA. Chaque carte presente les technologies utilisees et les liens utiles.
+          Une selection de projets en web, logiciel et IA. Chaque carte presente
+          les technologies utilisees et les liens utiles.
         </p>
       </div>
 

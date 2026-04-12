@@ -1,292 +1,288 @@
 [
-
-    {
-        "name": "PolyPresence",
-        "img": "./polypresence.png",
-        "description": "PolyPresence is a production web app used at Polytech Lyon to centralize apprenticeship attendance and simplify signature workflows for students and staff.",
-        "language_used": ["Vue.js", "CSS", "C#"],
-        "statut": "Development completed",
-        "link": {
-            "github": "https://github.com/Eclairsombre/PolyPresence",
-            "website": "https://polypresence.onyx.ovh/"
-        }
-    },
-    {
-        "name":"DungeonCrawler",
-        "img":"./dungeonCrawler.png",
-        "description":"DungeonCrawler is a roguelike game created with the Microsoft.Xna.Framework.Graphics in C#. The goal of this project is to learn how to use C#.",
-        "language_used":["C#"],
-        "statut":"In development",
-        "link":{
-            "github":"https://github.com/Eclairsombre/Dungeon",
-            "website":""
-        }
-
-    },
-    {
-        "name":"CineTour",
-        "img": "./cinetour.png",
-        "description": "CineTour helps users discover movie shooting locations and nearby points of interest to build a thematic trip with an interactive map experience.",
-        "language_used": ["React", "CSS", "Java"],
-        "statut": "Development completed",
-        "link": {
-            "github": "https://github.com/NichiHachi/CineTour",
-            "website": ""
-        }
-    },
-    {
-        "name": "SudokuSolver",
-        "img": "/sudoku.png",
-        "description": "SudokuSolver is a Sudoku solver created with Java. It uses the backtracking algorithm and WFC algorithm to solve the Sudoku. It also has a graphical and terminal interface. You can save and load Sudoku from a file.",    
-        "language_used": ["Java"],
-        "statut": "Development completed",
-        "link": {
-            "github": "https://github.com/NichiHachi/Sudoku",
-            "website": ""
-        }
-
-    },
-    {
-        "name": "TP_OS_IIS",
-        "img": "/iis.png",
-        "description": "TP_OS_IIS is a project that aims to create a website with IIS and PHP to manage users of the OU on a Windows VM. This project was carried out as part of the UE OS.",
-        "language_used": ["PHP", "IIS"],
-        "statut": "Development completed",
-        "link": {
-            "github": "https://github.com/Eclairsombre/TP_OS_IIS",
-            "website": ""
-        }
-    },
-    {
-        "name": "8T",
-        "img": "/8t.webp",
-        "description": "8T is a board game that reinvents the traditional tic-tac-toe by introducing new rules, transforming the gaming experience with SDL2. This project was carried out as part of the UE LIFAPCD.",
-        "language_used": ["C++"],
-        "statut": "Development completed",
-        "link": {
-            "github": "https://forge.univ-lyon1.fr/p2203381/8T",
-            "website": ""
-        }
-    },
-    {
-        "name": "Connect4IA",
-        "img": "/connect4ia.png",
-        "description": "Connect4IA is a Connect 4 project combining MinMax, AlphaBeta and MCTS strategies, with a Python UI and a robotic arm integration for physical gameplay.",
-        "language_used": ["Python"],
-        "statut": "Development completed",
-        "link": {
-            "github": "https://github.com/Xeon0X/Connect4AI",
-            "website": ""
-        }
-    },
-    {
-        "name": "OnePieceWiki",
-        "img": "/onepiecewiki.png",
-        "description": "OnePieceWiki is a website that allows you to search for information about the One Piece universe.",
-        "language_used": ["React", "SCSS"],
-        "statut": "In development",
-        "link": {
-            "github": "https://github.com/Eclairsombre/OnePieceWiki",
-            "website": ""
-        }
-    },
-    {
-        "name": "FlashCardApp",
-        "img": "/flashcard.png",
-        "description": "FlashCardApp is a web application that allows you to create flashcards to learn vocabulary words. This project aims to teach the basics of Java.",
-        "language_used": ["Java"],
-        "statut": "In development",
-        "link": {
-            "github": "https://github.com/Eclairsombre/FlashCardApp",
-            "website": ""
-        }
-    },
-    {
-        "name": "JavaChess",
-        "img": "/javachess.png",
-        "description": "JavaChess is a simple chess application in Java. This project aims to teach the basics of Java.",
-        "language_used": ["Java"],
-        "statut": "In development",
-        "link": {
-            "github": "https://github.com/Eclairsombre/JavaChess",
-            "website": ""
-        }
-    },
-    {
-        "name": "Dino-Runner",
-        "img": "./DInoRunner.png",
-        "description": "A runner-type game created with the SDL2 library and inspired by the famous Google Dino game with a new inverted game mode.",
-        "language_used": ["C++"],
-        "statut": "Development completed",
-        "link": {
-            "github": "https://github.com/Eclairsombre/Dino-Runner",
-            "website": ""
-        }
-    },
-    {
-        "name": "Chess Game with Random AI",
-        "img": "./chess.png",
-        "description": "A simple chess game against an AI created with the SDL2 library.",
-        "language_used": ["C++"],
-        "statut": "Development completed",
-        "link": {
-            "github": "https://github.com/Eclairsombre/Chess",
-            "website": ""
-        }
-    },
-    {
-        "name": "Tetris",
-        "img": "./tetris.png",
-        "description": "A simple Tetris game created with the SDL2 library.",
-        "language_used": ["C++"],
-        "statut": "Development completed",
-        "link": {
-            "github": "https://github.com/Eclairsombre/Tetris",
-            "website": ""
-        }
-    },
-    {
-        "name": "Simple Calculator",
-        "img": "/calculator.png",
-        "description": "This is a basic calculator project created using HTML, CSS, and JavaScript. The goal of this project is to provide hands-on experience to learn and practice JavaScript.",
-        "language_used": ["HTML", "CSS", "JavaScript"],
-        "statut": "Development completed",
-        "link": {
-            "github": "https://github.com/Eclairsombre/SimpleCalculator",
-            "website": "https://eclairsombre.github.io/SimpleCalculator/"
-        }
-    },
-    {
-        "name": "GDMC-2023",
-        "img": "./gdmc.webp",
-        "description": "This is a competition for AI colony generation in Minecraft, where you can participate by writing an algorithm that creates an interesting city for a given Minecraft map.",
-        "language_used": ["Python"],
-        "statut": "Development completed",
-        "link": {
-            "github": "https://github.com/Eclairsombre/GDMC-2023",
-            "website": ""
-        }
-    },
-    {
-        "name":"GDMC-2024",
-        "img":"./gdmc.webp",
-        "description":"This is a competition for AI colony generation in Minecraft, where you can participate by writing an algorithm that creates an interesting city for a given Minecraft map.",
-        "language_used":["Python"],
-        "statut":"Development completed",
-        "link":{
-            "github":"https://github.com/Xeon0X/GDMC-2024",
-            "website":""
-        }
-
-    },
-    {
-        "name": "GDMC-2025",
-        "img": "./gdmc.webp",
-        "description": "GDMC-2025 is our current AI city-generation entry for Minecraft, focused on better urban planning heuristics and generation quality.",
-        "language_used": ["Python"],
-        "statut": "In development",
-        "link": {
-            "github": "",
-            "website": ""
-        }
-    },
-    {
-        "name": "ToDoList",
-        "img": "./todolist.png",
-        "description": "A simple ToDoList created with React.",
-        "language_used": ["React", "CSS"],
-        "statut": "Development completed",
-        "link": {
-            "github": "https://github.com/Eclairsombre/ToDoList",
-            "website": "https://eclairsombre.github.io/ToDoList/"
-        }
-    },
-    {
-        "name": "RandomAnimePicker",
-        "img": "./randomAnime.png",
-        "description": "A random anime picker made in React with a search filter and using the Jikan Moe API.",
-        "language_used": ["React", "CSS"],
-        "statut": "Development completed",
-        "link": {
-            "github": "https://github.com/Eclairsombre/RandomAnimePicker",
-            "website": "https://eclairsombre.github.io/RandomAnimePicker/"
-        }
-    },
-    {
-        "name": "LaNuitDeL'info 2023",
-        "img": "./lndf2023.png",
-        "description": "La Nuit de l'Info 2023: team project delivered in one night on climate change, with a complete web experience built under tight deadline constraints.",
-        "language_used": ["React", "SCSS"],
-        "statut": "Development completed",
-        "link": {
-            "github": "https://github.com/PolyCrusader/PolyCrusader",
-            "website": ""
-        }
-    },
-    {
-        "name": "AnimePickerExtension",
-        "img": "./animeExtension.png",
-        "description": "A Chrome/Firefox extension that allows you to choose a random anime from the Jikan Moe API.",
-        "language_used": ["React", "SCSS"],
-        "statut": "Development completed",
-        "link": {
-            "github": "https://github.com/Eclairsombre/AnimePickerExtension",
-            "website": ""
-        }
-    },
-    {
-        "name": "PortFolio",
-        "img": "./portfolio.png",
-        "description": "Personal portfolio built with React and SCSS to showcase projects, technical skills and contact channels in a clear and modern interface.",
-        "language_used": ["React", "SCSS"],
-        "statut": "Development completed",
-        "link": {
-            "github": "https://github.com/Eclairsombre/Eclairsombre.github.io",
-            "website": "https://eclairsombre.github.io/"
-        }
-    },
-    {
-        "name": "2048",
-        "img": "./2048.png",
-        "description": "A simple 2048 game created with SDL2 and C++.",
-        "language_used": ["C++"],
-        "statut": "Development completed",
-        "link": {
-            "github": "https://github.com/Eclairsombre/2048",
-            "website": ""
-        }
-    },
-    {
-        "name": "TierListCreator",
-        "img": "./tierlist.png",
-        "description": "A Tierlist creator made with React and SCSS.",
-        "language_used": ["React", "SCSS"],
-        "statut": "Development completed",
-        "link": {
-            "github": "https://github.com/Eclairsombre/TierListCreator",
-            "website": "https://eclairsombre.github.io/TierListCreator/"
-        }
-    },
-    {
-        "name": "Game of Life",
-        "img": "./life.png",
-        "description": "A representation of the Game of Life created with SDL2 and C++.",
-        "language_used": ["C++"],
-        "statut": "Development completed",
-        "link": {
-            "github": "https://github.com/Eclairsombre/Game-of-life",
-            "website": ""
-        }
-    },
-    {
-        "name": "Fractals",
-        "img": "./fractals.png",
-        "description": "A representation of fractals created with SDL2 and C++.",
-        "language_used": ["C++"],
-        "statut": "Development completed",
-        "link": {
-            "github": "https://github.com/Eclairsombre/Fractals",
-            "website": ""
-        }
+  {
+    "name": "PolyPresence",
+    "img": "./polypresence.png",
+    "description": "PolyPresence is a production web app used at Polytech Lyon to centralize apprenticeship attendance and simplify signature workflows for students and staff.",
+    "language_used": ["Vue.js", "CSS", "C#"],
+    "statut": "Development completed",
+    "link": {
+      "github": "https://github.com/Eclairsombre/PolyPresence",
+      "website": "https://polypresence.onyx.ovh/"
     }
+  },
+  {
+    "name": "DungeonCrawler",
+    "img": "./dungeonCrawler.png",
+    "description": "DungeonCrawler is a roguelike game created with the Microsoft.Xna.Framework.Graphics in C#. The goal of this project is to learn how to use C#.",
+    "language_used": ["C#"],
+    "statut": "In development",
+    "link": {
+      "github": "https://github.com/Eclairsombre/Dungeon",
+      "website": ""
+    }
+  },
+  {
+    "name": "CineTour",
+    "img": "./cinetour.png",
+    "description": "CineTour helps users discover movie shooting locations and nearby points of interest to build a thematic trip with an interactive map experience.",
+    "language_used": ["React", "CSS", "Java"],
+    "statut": "Development completed",
+    "link": {
+      "github": "https://github.com/NichiHachi/CineTour",
+      "website": ""
+    }
+  },
+  {
+    "name": "SudokuSolver",
+    "img": "/sudoku.png",
+    "description": "SudokuSolver is a Sudoku solver created with Java. It uses the backtracking algorithm and WFC algorithm to solve the Sudoku. It also has a graphical and terminal interface. You can save and load Sudoku from a file.",
+    "language_used": ["Java"],
+    "statut": "Development completed",
+    "link": {
+      "github": "https://github.com/NichiHachi/Sudoku",
+      "website": ""
+    }
+  },
+  {
+    "name": "TP_OS_IIS",
+    "img": "/iis.png",
+    "description": "TP_OS_IIS is a project that aims to create a website with IIS and PHP to manage users of the OU on a Windows VM. This project was carried out as part of the UE OS.",
+    "language_used": ["PHP", "IIS"],
+    "statut": "Development completed",
+    "link": {
+      "github": "https://github.com/Eclairsombre/TP_OS_IIS",
+      "website": ""
+    }
+  },
+  {
+    "name": "8T",
+    "img": "/8t.webp",
+    "description": "8T is a board game that reinvents the traditional tic-tac-toe by introducing new rules, transforming the gaming experience with SDL2. This project was carried out as part of the UE LIFAPCD.",
+    "language_used": ["C++"],
+    "statut": "Development completed",
+    "link": {
+      "github": "https://forge.univ-lyon1.fr/p2203381/8T",
+      "website": ""
+    }
+  },
+  {
+    "name": "Connect4IA",
+    "img": "/connect4ia.png",
+    "description": "Connect4IA is a Connect 4 project combining MinMax, AlphaBeta and MCTS strategies, with a Python UI and a robotic arm integration for physical gameplay.",
+    "language_used": ["Python"],
+    "statut": "Development completed",
+    "link": {
+      "github": "https://github.com/Xeon0X/Connect4AI",
+      "website": ""
+    }
+  },
+  {
+    "name": "OnePieceWiki",
+    "img": "/onepiecewiki.png",
+    "description": "OnePieceWiki is a website that allows you to search for information about the One Piece universe.",
+    "language_used": ["React", "SCSS"],
+    "statut": "In development",
+    "link": {
+      "github": "https://github.com/Eclairsombre/OnePieceWiki",
+      "website": ""
+    }
+  },
+  {
+    "name": "FlashCardApp",
+    "img": "/flashcard.png",
+    "description": "FlashCardApp is a web application that allows you to create flashcards to learn vocabulary words. This project aims to teach the basics of Java.",
+    "language_used": ["Java"],
+    "statut": "In development",
+    "link": {
+      "github": "https://github.com/Eclairsombre/FlashCardApp",
+      "website": ""
+    }
+  },
+  {
+    "name": "JavaChess",
+    "img": "/javachess.png",
+    "description": "JavaChess is a simple chess application in Java. This project aims to teach the basics of Java.",
+    "language_used": ["Java"],
+    "statut": "In development",
+    "link": {
+      "github": "https://github.com/Eclairsombre/JavaChess",
+      "website": ""
+    }
+  },
+  {
+    "name": "Dino-Runner",
+    "img": "./DInoRunner.png",
+    "description": "A runner-type game created with the SDL2 library and inspired by the famous Google Dino game with a new inverted game mode.",
+    "language_used": ["C++"],
+    "statut": "Development completed",
+    "link": {
+      "github": "https://github.com/Eclairsombre/Dino-Runner",
+      "website": ""
+    }
+  },
+  {
+    "name": "Chess Game with Random AI",
+    "img": "./chess.png",
+    "description": "A simple chess game against an AI created with the SDL2 library.",
+    "language_used": ["C++"],
+    "statut": "Development completed",
+    "link": {
+      "github": "https://github.com/Eclairsombre/Chess",
+      "website": ""
+    }
+  },
+  {
+    "name": "Tetris",
+    "img": "./tetris.png",
+    "description": "A simple Tetris game created with the SDL2 library.",
+    "language_used": ["C++"],
+    "statut": "Development completed",
+    "link": {
+      "github": "https://github.com/Eclairsombre/Tetris",
+      "website": ""
+    }
+  },
+  {
+    "name": "Simple Calculator",
+    "img": "/calculator.png",
+    "description": "This is a basic calculator project created using HTML, CSS, and JavaScript. The goal of this project is to provide hands-on experience to learn and practice JavaScript.",
+    "language_used": ["HTML", "CSS", "JavaScript"],
+    "statut": "Development completed",
+    "link": {
+      "github": "https://github.com/Eclairsombre/SimpleCalculator",
+      "website": "https://eclairsombre.github.io/SimpleCalculator/"
+    }
+  },
+  {
+    "name": "GDMC-2023",
+    "img": "./gdmc.webp",
+    "description": "This is a competition for AI colony generation in Minecraft, where you can participate by writing an algorithm that creates an interesting city for a given Minecraft map.",
+    "language_used": ["Python"],
+    "statut": "Development completed",
+    "link": {
+      "github": "https://github.com/Eclairsombre/GDMC-2023",
+      "website": ""
+    }
+  },
+  {
+    "name": "GDMC-2024",
+    "img": "./gdmc.webp",
+    "description": "This is a competition for AI colony generation in Minecraft, where you can participate by writing an algorithm that creates an interesting city for a given Minecraft map.",
+    "language_used": ["Python"],
+    "statut": "Development completed",
+    "link": {
+      "github": "https://github.com/Xeon0X/GDMC-2024",
+      "website": ""
+    }
+  },
+  {
+    "name": "GDMC-2025",
+    "img": "./gdmc.webp",
+    "description": "GDMC-2025 is our current AI city-generation entry for Minecraft, focused on better urban planning heuristics and generation quality.",
+    "language_used": ["Python"],
+    "statut": "In development",
+    "link": {
+      "github": "",
+      "website": ""
+    }
+  },
+  {
+    "name": "ToDoList",
+    "img": "./todolist.png",
+    "description": "A simple ToDoList created with React.",
+    "language_used": ["React", "CSS"],
+    "statut": "Development completed",
+    "link": {
+      "github": "https://github.com/Eclairsombre/ToDoList",
+      "website": "https://eclairsombre.github.io/ToDoList/"
+    }
+  },
+  {
+    "name": "RandomAnimePicker",
+    "img": "./randomAnime.png",
+    "description": "A random anime picker made in React with a search filter and using the Jikan Moe API.",
+    "language_used": ["React", "CSS"],
+    "statut": "Development completed",
+    "link": {
+      "github": "https://github.com/Eclairsombre/RandomAnimePicker",
+      "website": "https://eclairsombre.github.io/RandomAnimePicker/"
+    }
+  },
+  {
+    "name": "LaNuitDeL'info 2023",
+    "img": "./lndf2023.png",
+    "description": "La Nuit de l'Info 2023: team project delivered in one night on climate change, with a complete web experience built under tight deadline constraints.",
+    "language_used": ["React", "SCSS"],
+    "statut": "Development completed",
+    "link": {
+      "github": "https://github.com/PolyCrusader/PolyCrusader",
+      "website": ""
+    }
+  },
+  {
+    "name": "AnimePickerExtension",
+    "img": "./animeExtension.png",
+    "description": "A Chrome/Firefox extension that allows you to choose a random anime from the Jikan Moe API.",
+    "language_used": ["React", "SCSS"],
+    "statut": "Development completed",
+    "link": {
+      "github": "https://github.com/Eclairsombre/AnimePickerExtension",
+      "website": ""
+    }
+  },
+  {
+    "name": "PortFolio",
+    "img": "./portfolio.png",
+    "description": "Personal portfolio built with React and SCSS to showcase projects, technical skills and contact channels in a clear and modern interface.",
+    "language_used": ["React", "SCSS"],
+    "statut": "Development completed",
+    "link": {
+      "github": "https://github.com/Eclairsombre/Eclairsombre.github.io",
+      "website": "https://eclairsombre.github.io/"
+    }
+  },
+  {
+    "name": "2048",
+    "img": "./2048.png",
+    "description": "A simple 2048 game created with SDL2 and C++.",
+    "language_used": ["C++"],
+    "statut": "Development completed",
+    "link": {
+      "github": "https://github.com/Eclairsombre/2048",
+      "website": ""
+    }
+  },
+  {
+    "name": "TierListCreator",
+    "img": "./tierlist.png",
+    "description": "A Tierlist creator made with React and SCSS.",
+    "language_used": ["React", "SCSS"],
+    "statut": "Development completed",
+    "link": {
+      "github": "https://github.com/Eclairsombre/TierListCreator",
+      "website": "https://eclairsombre.github.io/TierListCreator/"
+    }
+  },
+  {
+    "name": "Game of Life",
+    "img": "./life.png",
+    "description": "A representation of the Game of Life created with SDL2 and C++.",
+    "language_used": ["C++"],
+    "statut": "Development completed",
+    "link": {
+      "github": "https://github.com/Eclairsombre/Game-of-life",
+      "website": ""
+    }
+  },
+  {
+    "name": "Fractals",
+    "img": "./fractals.png",
+    "description": "A representation of fractals created with SDL2 and C++.",
+    "language_used": ["C++"],
+    "statut": "Development completed",
+    "link": {
+      "github": "https://github.com/Eclairsombre/Fractals",
+      "website": ""
+    }
+  }
 ]

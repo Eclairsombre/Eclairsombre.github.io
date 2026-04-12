@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 const ScrollToTop = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -16,21 +16,25 @@ const ScrollToTop = () => {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth'
+      behavior: "smooth",
     });
   };
 
   useEffect(() => {
-    window.addEventListener('scroll', toggleVisibility);
+    window.addEventListener("scroll", toggleVisibility);
     return () => {
-      window.removeEventListener('scroll', toggleVisibility);
+      window.removeEventListener("scroll", toggleVisibility);
     };
   }, []);
 
   return (
     <>
       {isVisible && (
-        <button onClick={scrollToTop} className="scroll-to-top visible" aria-label="Retour en haut">
+        <button
+          onClick={scrollToTop}
+          className="scroll-to-top visible"
+          aria-label="Retour en haut"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"

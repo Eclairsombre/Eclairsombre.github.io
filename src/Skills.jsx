@@ -14,12 +14,20 @@ function Skills() {
       <ul className="SkillsList">
         {data.skills.map((element, index) => (
           <li key={`${element.name}-${index}`}>
-            <div className="skill" style={{ animationDelay: `${index * 70}ms` }}>
+            <div
+              className="skill"
+              style={{ animationDelay: `${index * 70}ms` }}
+            >
               <div className="skill__meta">
                 <p>{element.name}</p>
                 <span>{element.level}</span>
               </div>
-              <progress className="progress-bar" value={Number.parseInt(element.level, 10)} max="100" aria-label={`Niveau ${element.name}`}></progress>
+              <progress
+                className="progress-bar"
+                value={Number.parseInt(element.level, 10)}
+                max="100"
+                aria-label={`Niveau ${element.name}`}
+              ></progress>
             </div>
           </li>
         ))}
